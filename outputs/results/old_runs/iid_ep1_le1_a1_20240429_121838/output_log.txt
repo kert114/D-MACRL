@@ -1,0 +1,402 @@
+
+Experimental details:
+    Model     : resnet
+    Optimizer : adam
+    Learning  : 0.001
+    Global Rounds   : 1
+
+    Fraction of users  : 1.0
+    Local Batch size   : 256
+    Local Epochs       : 1.0
+
+device:  cuda
+sampling for dataset: mnist
+Files already downloaded and verified
+dataset sample num: (50000, 32, 32, 3)
+Files already downloaded and verified
+Files already downloaded and verified
+get dataset time: 3.082
+sample dataset time: 0.012
+user data samples: [50000]
+Namespace(epochs=1, num_users=1, frac=1.0, local_ep=1.0, local_bs=256, lr=0.001, momentum=0.9, num_workers=16, model='resnet', batch_size=256, weight_decay=0.0005, dataset='mnist', backbone='resnet18', num_classes=10, gpu='0', optimizer='adam', save_name_suffix='', iid=0, verbose=0, seed=1, feature_dim=128, temperature=0.5, k=200, ssl_method='simclr', x_noniid=False, dirichlet=False, test_intermediate=False, dir_beta=0.5, imagenet_based_cluster=False, y_partition=False, log_file_name='results/iid_ep1_le1_a1_20240429_121838/skew_ssl_comm', num_clusters=1, imagenet100=False, y_partition_skew=True, y_partition_ratio=0.0, x_shift_dirichlet=False, reg_scale=1, load_pretrained_path='', full_size=False, local_rank=0, distributed_training=False, log_directory='results/iid_ep1_le1_a1_20240429_121838', emd=0, dist_url='env://', average_without_bn=False, model_continue_training=0, finetuning_epoch=60, script_name='', x_shift_skew=False, load_dataset_to_memory=False)
+output model: save/29_04_2024_12:19:44_2623395
+number of users per round: 1
+total number of rounds: 1
+
+ | Global Training Round : 1 | Model : 29_04_2024_12:19:44_2623395
+
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [0/40000 (0%)]	Loss: 6.132945                         LR: 0.0000  Feat: 0.754 Epoch Time: 11.500 Model Time: 10.605 Data Time: 0.894 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [2560/40000 (6%)]	Loss: 6.155431                         LR: 0.0000  Feat: 0.771 Epoch Time: 12.972 Model Time: 0.055 Data Time: 0.092 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [5120/40000 (13%)]	Loss: 6.134206                         LR: 0.0000  Feat: 0.770 Epoch Time: 14.429 Model Time: 0.050 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [7680/40000 (19%)]	Loss: 6.111464                         LR: 0.0000  Feat: 0.766 Epoch Time: 15.887 Model Time: 0.051 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [10240/40000 (26%)]	Loss: 6.111480                         LR: 0.0000  Feat: 0.748 Epoch Time: 17.346 Model Time: 0.050 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [12800/40000 (32%)]	Loss: 6.128804                         LR: 0.0000  Feat: 0.762 Epoch Time: 18.809 Model Time: 0.051 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [15360/40000 (38%)]	Loss: 6.151945                         LR: 0.0000  Feat: 0.751 Epoch Time: 20.272 Model Time: 0.050 Data Time: 0.095 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [17920/40000 (45%)]	Loss: 6.135729                         LR: 0.0000  Feat: 0.765 Epoch Time: 21.735 Model Time: 0.051 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [20480/40000 (51%)]	Loss: 6.091251                         LR: 0.0000  Feat: 0.751 Epoch Time: 23.204 Model Time: 0.052 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [23040/40000 (58%)]	Loss: 6.110792                         LR: 0.0000  Feat: 0.766 Epoch Time: 24.669 Model Time: 0.050 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [25600/40000 (64%)]	Loss: 6.078730                         LR: 0.0000  Feat: 0.767 Epoch Time: 26.134 Model Time: 0.050 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [28160/40000 (71%)]	Loss: 6.071861                         LR: 0.0000  Feat: 0.766 Epoch Time: 27.602 Model Time: 0.050 Data Time: 0.097 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [30720/40000 (77%)]	Loss: 6.114704                         LR: 0.0000  Feat: 0.764 Epoch Time: 29.069 Model Time: 0.051 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [33280/40000 (83%)]	Loss: 6.067636                         LR: 0.0000  Feat: 0.749 Epoch Time: 30.536 Model Time: 0.050 Data Time: 0.097 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [35840/40000 (90%)]	Loss: 6.081084                         LR: 0.0000  Feat: 0.762 Epoch Time: 31.999 Model Time: 0.050 Data Time: 0.096 Model: 29_04_2024_12:19:44_2623395
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [38400/40000 (96%)]	Loss: 6.125244                         LR: 0.0000  Feat: 0.770 Epoch Time: 33.465 Model Time: 0.050 Data Time: 0.097 Model: 29_04_2024_12:19:44_2623395
+evaluating representations:  save/29_04_2024_12:19:44_2623395
+Training classifier
+sampling for dataset: mnist
+Files already downloaded and verified
+dataset sample num: (50000, 32, 32, 3)
+Files already downloaded and verified
+Files already downloaded and verified
+get dataset time: 2.679
+sample dataset time: 0.013
+user data samples: [50000]
+begin training classifier...
+Downstream Train Epoch: 1 [0/50000 (0%)]	Loss: 2.473436
+Downstream Train Epoch: 1 [12800/50000 (26%)]	Loss: 2.225626
+Downstream Train Epoch: 1 [25600/50000 (51%)]	Loss: 2.255375
+Downstream Train Epoch: 1 [38400/50000 (77%)]	Loss: 2.171611
+
+ Downstream Train loss: 2.209959410891241 Acc: 0.2071
+Downstream Train Epoch: 2 [0/50000 (0%)]	Loss: 2.220654
+Downstream Train Epoch: 2 [12800/50000 (26%)]	Loss: 2.125595
+Downstream Train Epoch: 2 [25600/50000 (51%)]	Loss: 2.130138
+Downstream Train Epoch: 2 [38400/50000 (77%)]	Loss: 2.170467
+
+ Downstream Train loss: 2.1285132425171986 Acc: 0.272
+Downstream Train Epoch: 3 [0/50000 (0%)]	Loss: 2.087982
+Downstream Train Epoch: 3 [12800/50000 (26%)]	Loss: 2.074850
+Downstream Train Epoch: 3 [25600/50000 (51%)]	Loss: 2.111421
+Downstream Train Epoch: 3 [38400/50000 (77%)]	Loss: 2.111390
+
+ Downstream Train loss: 2.1050593025830326 Acc: 0.272
+Downstream Train Epoch: 4 [0/50000 (0%)]	Loss: 2.138624
+Downstream Train Epoch: 4 [12800/50000 (26%)]	Loss: 2.066077
+Downstream Train Epoch: 4 [25600/50000 (51%)]	Loss: 2.101170
+Downstream Train Epoch: 4 [38400/50000 (77%)]	Loss: 2.082897
+
+ Downstream Train loss: 2.089414282720916 Acc: 0.2753
+Downstream Train Epoch: 5 [0/50000 (0%)]	Loss: 2.038098
+Downstream Train Epoch: 5 [12800/50000 (26%)]	Loss: 2.094851
+Downstream Train Epoch: 5 [25600/50000 (51%)]	Loss: 2.117307
+Downstream Train Epoch: 5 [38400/50000 (77%)]	Loss: 1.993280
+
+ Downstream Train loss: 2.084316306576437 Acc: 0.2753
+Downstream Train Epoch: 6 [0/50000 (0%)]	Loss: 2.125142
+Downstream Train Epoch: 6 [12800/50000 (26%)]	Loss: 2.070707
+Downstream Train Epoch: 6 [25600/50000 (51%)]	Loss: 2.078201
+Downstream Train Epoch: 6 [38400/50000 (77%)]	Loss: 2.094381
+
+ Downstream Train loss: 2.078887460183124 Acc: 0.284
+Downstream Train Epoch: 7 [0/50000 (0%)]	Loss: 2.040857
+Downstream Train Epoch: 7 [12800/50000 (26%)]	Loss: 1.995842
+Downstream Train Epoch: 7 [25600/50000 (51%)]	Loss: 2.102595
+Downstream Train Epoch: 7 [38400/50000 (77%)]	Loss: 2.078141
+
+ Downstream Train loss: 2.0674703248909543 Acc: 0.3063
+Downstream Train Epoch: 8 [0/50000 (0%)]	Loss: 2.065658
+Downstream Train Epoch: 8 [12800/50000 (26%)]	Loss: 2.041554
+Downstream Train Epoch: 8 [25600/50000 (51%)]	Loss: 2.057922
+Downstream Train Epoch: 8 [38400/50000 (77%)]	Loss: 2.049733
+
+ Downstream Train loss: 2.0626919701391335 Acc: 0.3063
+Downstream Train Epoch: 9 [0/50000 (0%)]	Loss: 2.010016
+Downstream Train Epoch: 9 [12800/50000 (26%)]	Loss: 2.059199
+Downstream Train Epoch: 9 [25600/50000 (51%)]	Loss: 2.052577
+Downstream Train Epoch: 9 [38400/50000 (77%)]	Loss: 2.036068
+
+ Downstream Train loss: 2.0596568426307367 Acc: 0.3063
+Downstream Train Epoch: 10 [0/50000 (0%)]	Loss: 2.068932
+Downstream Train Epoch: 10 [12800/50000 (26%)]	Loss: 2.032926
+Downstream Train Epoch: 10 [25600/50000 (51%)]	Loss: 2.056598
+Downstream Train Epoch: 10 [38400/50000 (77%)]	Loss: 2.032501
+
+ Downstream Train loss: 2.0540727899999034 Acc: 0.3063
+Downstream Train Epoch: 11 [0/50000 (0%)]	Loss: 2.051359
+Downstream Train Epoch: 11 [12800/50000 (26%)]	Loss: 2.138400
+Downstream Train Epoch: 11 [25600/50000 (51%)]	Loss: 2.051656
+Downstream Train Epoch: 11 [38400/50000 (77%)]	Loss: 2.116317
+
+ Downstream Train loss: 2.057580735610456 Acc: 0.3063
+Downstream Train Epoch: 12 [0/50000 (0%)]	Loss: 2.096374
+Downstream Train Epoch: 12 [12800/50000 (26%)]	Loss: 2.035454
+Downstream Train Epoch: 12 [25600/50000 (51%)]	Loss: 2.088577
+Downstream Train Epoch: 12 [38400/50000 (77%)]	Loss: 1.996994
+
+ Downstream Train loss: 2.0465445877337944 Acc: 0.3063
+Downstream Train Epoch: 13 [0/50000 (0%)]	Loss: 2.087493
+Downstream Train Epoch: 13 [12800/50000 (26%)]	Loss: 2.004557
+Downstream Train Epoch: 13 [25600/50000 (51%)]	Loss: 2.167130
+Downstream Train Epoch: 13 [38400/50000 (77%)]	Loss: 2.069903
+
+ Downstream Train loss: 2.049014752008477 Acc: 0.3088
+Downstream Train Epoch: 14 [0/50000 (0%)]	Loss: 2.051394
+Downstream Train Epoch: 14 [12800/50000 (26%)]	Loss: 2.041761
+Downstream Train Epoch: 14 [25600/50000 (51%)]	Loss: 2.123244
+Downstream Train Epoch: 14 [38400/50000 (77%)]	Loss: 2.074589
+
+ Downstream Train loss: 2.0466043699760825 Acc: 0.3112
+Downstream Train Epoch: 15 [0/50000 (0%)]	Loss: 2.085915
+Downstream Train Epoch: 15 [12800/50000 (26%)]	Loss: 2.049822
+Downstream Train Epoch: 15 [25600/50000 (51%)]	Loss: 2.047062
+Downstream Train Epoch: 15 [38400/50000 (77%)]	Loss: 2.132236
+
+ Downstream Train loss: 2.0473567928586687 Acc: 0.3112
+Downstream Train Epoch: 16 [0/50000 (0%)]	Loss: 2.054311
+Downstream Train Epoch: 16 [12800/50000 (26%)]	Loss: 2.039117
+Downstream Train Epoch: 16 [25600/50000 (51%)]	Loss: 2.061923
+Downstream Train Epoch: 16 [38400/50000 (77%)]	Loss: 2.067576
+
+ Downstream Train loss: 2.0455095354391606 Acc: 0.3112
+Downstream Train Epoch: 17 [0/50000 (0%)]	Loss: 2.082633
+Downstream Train Epoch: 17 [12800/50000 (26%)]	Loss: 2.093662
+Downstream Train Epoch: 17 [25600/50000 (51%)]	Loss: 2.012540
+Downstream Train Epoch: 17 [38400/50000 (77%)]	Loss: 2.065762
+
+ Downstream Train loss: 2.042604740176882 Acc: 0.3112
+Downstream Train Epoch: 18 [0/50000 (0%)]	Loss: 1.979634
+Downstream Train Epoch: 18 [12800/50000 (26%)]	Loss: 2.052778
+Downstream Train Epoch: 18 [25600/50000 (51%)]	Loss: 2.113324
+Downstream Train Epoch: 18 [38400/50000 (77%)]	Loss: 1.993004
+
+ Downstream Train loss: 2.0386405173613102 Acc: 0.3112
+Downstream Train Epoch: 19 [0/50000 (0%)]	Loss: 2.014760
+Downstream Train Epoch: 19 [12800/50000 (26%)]	Loss: 1.996803
+Downstream Train Epoch: 19 [25600/50000 (51%)]	Loss: 2.006395
+Downstream Train Epoch: 19 [38400/50000 (77%)]	Loss: 2.043962
+
+ Downstream Train loss: 2.036533549123881 Acc: 0.3112
+Downstream Train Epoch: 20 [0/50000 (0%)]	Loss: 2.056443
+Downstream Train Epoch: 20 [12800/50000 (26%)]	Loss: 2.018271
+Downstream Train Epoch: 20 [25600/50000 (51%)]	Loss: 2.025056
+Downstream Train Epoch: 20 [38400/50000 (77%)]	Loss: 2.036617
+
+ Downstream Train loss: 2.033242854536796 Acc: 0.3112
+Downstream Train Epoch: 21 [0/50000 (0%)]	Loss: 1.980885
+Downstream Train Epoch: 21 [12800/50000 (26%)]	Loss: 2.011636
+Downstream Train Epoch: 21 [25600/50000 (51%)]	Loss: 2.067053
+Downstream Train Epoch: 21 [38400/50000 (77%)]	Loss: 1.959211
+
+ Downstream Train loss: 2.0370276363528506 Acc: 0.3112
+Downstream Train Epoch: 22 [0/50000 (0%)]	Loss: 2.106207
+Downstream Train Epoch: 22 [12800/50000 (26%)]	Loss: 2.064018
+Downstream Train Epoch: 22 [25600/50000 (51%)]	Loss: 2.071634
+Downstream Train Epoch: 22 [38400/50000 (77%)]	Loss: 2.056403
+
+ Downstream Train loss: 2.0341169025216783 Acc: 0.3181
+Downstream Train Epoch: 23 [0/50000 (0%)]	Loss: 2.045756
+Downstream Train Epoch: 23 [12800/50000 (26%)]	Loss: 2.005917
+Downstream Train Epoch: 23 [25600/50000 (51%)]	Loss: 2.025981
+Downstream Train Epoch: 23 [38400/50000 (77%)]	Loss: 2.008380
+
+ Downstream Train loss: 2.0342520882888717 Acc: 0.3181
+Downstream Train Epoch: 24 [0/50000 (0%)]	Loss: 2.054981
+Downstream Train Epoch: 24 [12800/50000 (26%)]	Loss: 2.117770
+Downstream Train Epoch: 24 [25600/50000 (51%)]	Loss: 2.012625
+Downstream Train Epoch: 24 [38400/50000 (77%)]	Loss: 2.010029
+
+ Downstream Train loss: 2.0323469346883347 Acc: 0.3204
+Downstream Train Epoch: 25 [0/50000 (0%)]	Loss: 2.004897
+Downstream Train Epoch: 25 [12800/50000 (26%)]	Loss: 2.048733
+Downstream Train Epoch: 25 [25600/50000 (51%)]	Loss: 1.998506
+Downstream Train Epoch: 25 [38400/50000 (77%)]	Loss: 2.062059
+
+ Downstream Train loss: 2.0307437418674934 Acc: 0.3204
+Downstream Train Epoch: 26 [0/50000 (0%)]	Loss: 2.094477
+Downstream Train Epoch: 26 [12800/50000 (26%)]	Loss: 2.123052
+Downstream Train Epoch: 26 [25600/50000 (51%)]	Loss: 2.034820
+Downstream Train Epoch: 26 [38400/50000 (77%)]	Loss: 2.002867
+
+ Downstream Train loss: 2.0322690685184632 Acc: 0.3204
+Downstream Train Epoch: 27 [0/50000 (0%)]	Loss: 2.088856
+Downstream Train Epoch: 27 [12800/50000 (26%)]	Loss: 2.038786
+Downstream Train Epoch: 27 [25600/50000 (51%)]	Loss: 2.141173
+Downstream Train Epoch: 27 [38400/50000 (77%)]	Loss: 2.049087
+
+ Downstream Train loss: 2.0338949658432783 Acc: 0.3204
+Downstream Train Epoch: 28 [0/50000 (0%)]	Loss: 2.058177
+Downstream Train Epoch: 28 [12800/50000 (26%)]	Loss: 1.977077
+Downstream Train Epoch: 28 [25600/50000 (51%)]	Loss: 2.025846
+Downstream Train Epoch: 28 [38400/50000 (77%)]	Loss: 2.096359
+
+ Downstream Train loss: 2.0309743759583454 Acc: 0.3204
+Downstream Train Epoch: 29 [0/50000 (0%)]	Loss: 2.076709
+Downstream Train Epoch: 29 [12800/50000 (26%)]	Loss: 2.107500
+Downstream Train Epoch: 29 [25600/50000 (51%)]	Loss: 2.011703
+Downstream Train Epoch: 29 [38400/50000 (77%)]	Loss: 1.996616
+
+ Downstream Train loss: 2.0321489286666012 Acc: 0.3204
+Downstream Train Epoch: 30 [0/50000 (0%)]	Loss: 2.046440
+Downstream Train Epoch: 30 [12800/50000 (26%)]	Loss: 2.069381
+Downstream Train Epoch: 30 [25600/50000 (51%)]	Loss: 2.013441
+Downstream Train Epoch: 30 [38400/50000 (77%)]	Loss: 2.038168
+
+ Downstream Train loss: 2.0259274663973827 Acc: 0.3204
+Downstream Train Epoch: 31 [0/50000 (0%)]	Loss: 2.054940
+Downstream Train Epoch: 31 [12800/50000 (26%)]	Loss: 1.992898
+Downstream Train Epoch: 31 [25600/50000 (51%)]	Loss: 2.102144
+Downstream Train Epoch: 31 [38400/50000 (77%)]	Loss: 2.025157
+
+ Downstream Train loss: 2.0324080361395467 Acc: 0.3204
+Downstream Train Epoch: 32 [0/50000 (0%)]	Loss: 2.019644
+Downstream Train Epoch: 32 [12800/50000 (26%)]	Loss: 1.975606
+Downstream Train Epoch: 32 [25600/50000 (51%)]	Loss: 2.018399
+Downstream Train Epoch: 32 [38400/50000 (77%)]	Loss: 2.028521
+
+ Downstream Train loss: 2.025731646284765 Acc: 0.3204
+Downstream Train Epoch: 33 [0/50000 (0%)]	Loss: 2.130878
+Downstream Train Epoch: 33 [12800/50000 (26%)]	Loss: 2.015671
+Downstream Train Epoch: 33 [25600/50000 (51%)]	Loss: 2.002512
+Downstream Train Epoch: 33 [38400/50000 (77%)]	Loss: 1.999072
+
+ Downstream Train loss: 2.0233413686557693 Acc: 0.3204
+Downstream Train Epoch: 34 [0/50000 (0%)]	Loss: 2.012173
+Downstream Train Epoch: 34 [12800/50000 (26%)]	Loss: 2.032342
+Downstream Train Epoch: 34 [25600/50000 (51%)]	Loss: 1.995116
+Downstream Train Epoch: 34 [38400/50000 (77%)]	Loss: 2.047729
+
+ Downstream Train loss: 2.0243728033133914 Acc: 0.3204
+Downstream Train Epoch: 35 [0/50000 (0%)]	Loss: 1.994133
+Downstream Train Epoch: 35 [12800/50000 (26%)]	Loss: 2.015642
+Downstream Train Epoch: 35 [25600/50000 (51%)]	Loss: 2.016260
+Downstream Train Epoch: 35 [38400/50000 (77%)]	Loss: 2.017507
+
+ Downstream Train loss: 2.0264568505238514 Acc: 0.3204
+Downstream Train Epoch: 36 [0/50000 (0%)]	Loss: 1.994487
+Downstream Train Epoch: 36 [12800/50000 (26%)]	Loss: 2.095568
+Downstream Train Epoch: 36 [25600/50000 (51%)]	Loss: 2.065171
+Downstream Train Epoch: 36 [38400/50000 (77%)]	Loss: 2.091947
+
+ Downstream Train loss: 2.024017082793372 Acc: 0.3245
+Downstream Train Epoch: 37 [0/50000 (0%)]	Loss: 1.997419
+Downstream Train Epoch: 37 [12800/50000 (26%)]	Loss: 2.011154
+Downstream Train Epoch: 37 [25600/50000 (51%)]	Loss: 2.050829
+Downstream Train Epoch: 37 [38400/50000 (77%)]	Loss: 2.086998
+
+ Downstream Train loss: 2.0261304670450637 Acc: 0.3245
+Downstream Train Epoch: 38 [0/50000 (0%)]	Loss: 2.029336
+Downstream Train Epoch: 38 [12800/50000 (26%)]	Loss: 2.016895
+Downstream Train Epoch: 38 [25600/50000 (51%)]	Loss: 2.066977
+Downstream Train Epoch: 38 [38400/50000 (77%)]	Loss: 2.030815
+
+ Downstream Train loss: 2.02702841527608 Acc: 0.3245
+Downstream Train Epoch: 39 [0/50000 (0%)]	Loss: 2.068339
+Downstream Train Epoch: 39 [12800/50000 (26%)]	Loss: 2.018986
+Downstream Train Epoch: 39 [25600/50000 (51%)]	Loss: 1.985082
+Downstream Train Epoch: 39 [38400/50000 (77%)]	Loss: 2.057274
+
+ Downstream Train loss: 2.0280928642165903 Acc: 0.3245
+Downstream Train Epoch: 40 [0/50000 (0%)]	Loss: 1.986941
+Downstream Train Epoch: 40 [12800/50000 (26%)]	Loss: 2.037632
+Downstream Train Epoch: 40 [25600/50000 (51%)]	Loss: 2.033471
+Downstream Train Epoch: 40 [38400/50000 (77%)]	Loss: 1.984386
+
+ Downstream Train loss: 2.028163489030332 Acc: 0.331
+Downstream Train Epoch: 41 [0/50000 (0%)]	Loss: 2.002490
+Downstream Train Epoch: 41 [12800/50000 (26%)]	Loss: 1.936410
+Downstream Train Epoch: 41 [25600/50000 (51%)]	Loss: 2.043384
+Downstream Train Epoch: 41 [38400/50000 (77%)]	Loss: 1.995010
+
+ Downstream Train loss: 2.0259834886813652 Acc: 0.331
+Downstream Train Epoch: 42 [0/50000 (0%)]	Loss: 2.001477
+Downstream Train Epoch: 42 [12800/50000 (26%)]	Loss: 2.017791
+Downstream Train Epoch: 42 [25600/50000 (51%)]	Loss: 2.076884
+Downstream Train Epoch: 42 [38400/50000 (77%)]	Loss: 2.002722
+
+ Downstream Train loss: 2.0239785520397886 Acc: 0.331
+Downstream Train Epoch: 43 [0/50000 (0%)]	Loss: 2.035777
+Downstream Train Epoch: 43 [12800/50000 (26%)]	Loss: 1.985659
+Downstream Train Epoch: 43 [25600/50000 (51%)]	Loss: 2.044702
+Downstream Train Epoch: 43 [38400/50000 (77%)]	Loss: 1.988733
+
+ Downstream Train loss: 2.0213134483415254 Acc: 0.331
+Downstream Train Epoch: 44 [0/50000 (0%)]	Loss: 2.046856
+Downstream Train Epoch: 44 [12800/50000 (26%)]	Loss: 1.921602
+Downstream Train Epoch: 44 [25600/50000 (51%)]	Loss: 1.992748
+Downstream Train Epoch: 44 [38400/50000 (77%)]	Loss: 2.005918
+
+ Downstream Train loss: 2.0213456056555925 Acc: 0.331
+Downstream Train Epoch: 45 [0/50000 (0%)]	Loss: 1.987274
+Downstream Train Epoch: 45 [12800/50000 (26%)]	Loss: 2.038683
+Downstream Train Epoch: 45 [25600/50000 (51%)]	Loss: 2.019942
+Downstream Train Epoch: 45 [38400/50000 (77%)]	Loss: 2.040570
+
+ Downstream Train loss: 2.027976745245408 Acc: 0.331
+Downstream Train Epoch: 46 [0/50000 (0%)]	Loss: 2.089053
+Downstream Train Epoch: 46 [12800/50000 (26%)]	Loss: 1.982762
+Downstream Train Epoch: 46 [25600/50000 (51%)]	Loss: 2.003922
+Downstream Train Epoch: 46 [38400/50000 (77%)]	Loss: 2.000093
+
+ Downstream Train loss: 2.0223515216185124 Acc: 0.3328
+Downstream Train Epoch: 47 [0/50000 (0%)]	Loss: 2.030948
+Downstream Train Epoch: 47 [12800/50000 (26%)]	Loss: 2.082294
+Downstream Train Epoch: 47 [25600/50000 (51%)]	Loss: 1.996200
+Downstream Train Epoch: 47 [38400/50000 (77%)]	Loss: 1.980723
+
+ Downstream Train loss: 2.022634748293429 Acc: 0.3328
+Downstream Train Epoch: 48 [0/50000 (0%)]	Loss: 2.005214
+Downstream Train Epoch: 48 [12800/50000 (26%)]	Loss: 2.056152
+Downstream Train Epoch: 48 [25600/50000 (51%)]	Loss: 2.057396
+Downstream Train Epoch: 48 [38400/50000 (77%)]	Loss: 2.032878
+
+ Downstream Train loss: 2.0202821493148804 Acc: 0.3328
+Downstream Train Epoch: 49 [0/50000 (0%)]	Loss: 2.081164
+Downstream Train Epoch: 49 [12800/50000 (26%)]	Loss: 1.978534
+Downstream Train Epoch: 49 [25600/50000 (51%)]	Loss: 2.043211
+Downstream Train Epoch: 49 [38400/50000 (77%)]	Loss: 1.971431
+
+ Downstream Train loss: 2.0256469638980166 Acc: 0.3328
+Downstream Train Epoch: 50 [0/50000 (0%)]	Loss: 2.006763
+Downstream Train Epoch: 50 [12800/50000 (26%)]	Loss: 2.023246
+Downstream Train Epoch: 50 [25600/50000 (51%)]	Loss: 2.029971
+Downstream Train Epoch: 50 [38400/50000 (77%)]	Loss: 2.003902
+
+ Downstream Train loss: 2.0217810753656895 Acc: 0.3328
+Downstream Train Epoch: 51 [0/50000 (0%)]	Loss: 1.946231
+Downstream Train Epoch: 51 [12800/50000 (26%)]	Loss: 2.012156
+Downstream Train Epoch: 51 [25600/50000 (51%)]	Loss: 2.044489
+Downstream Train Epoch: 51 [38400/50000 (77%)]	Loss: 2.118071
+
+ Downstream Train loss: 2.0220332011884574 Acc: 0.3328
+Downstream Train Epoch: 52 [0/50000 (0%)]	Loss: 1.993586
+Downstream Train Epoch: 52 [12800/50000 (26%)]	Loss: 2.030568
+Downstream Train Epoch: 52 [25600/50000 (51%)]	Loss: 1.991518
+Downstream Train Epoch: 52 [38400/50000 (77%)]	Loss: 1.993317
+
+ Downstream Train loss: 2.017171344586781 Acc: 0.3328
+Downstream Train Epoch: 53 [0/50000 (0%)]	Loss: 2.025755
+Downstream Train Epoch: 53 [12800/50000 (26%)]	Loss: 2.025200
+Downstream Train Epoch: 53 [25600/50000 (51%)]	Loss: 1.998449
+Downstream Train Epoch: 53 [38400/50000 (77%)]	Loss: 2.049955
+
+ Downstream Train loss: 2.0182955252880954 Acc: 0.3328
+Downstream Train Epoch: 54 [0/50000 (0%)]	Loss: 1.992968
+Downstream Train Epoch: 54 [12800/50000 (26%)]	Loss: 2.078543
+Downstream Train Epoch: 54 [25600/50000 (51%)]	Loss: 2.007762
+Downstream Train Epoch: 54 [38400/50000 (77%)]	Loss: 2.031078
+
+ Downstream Train loss: 2.021057150193623 Acc: 0.3349
+Downstream Train Epoch: 55 [0/50000 (0%)]	Loss: 1.959446
+Downstream Train Epoch: 55 [12800/50000 (26%)]	Loss: 1.970330
+Downstream Train Epoch: 55 [25600/50000 (51%)]	Loss: 1.980694
+Downstream Train Epoch: 55 [38400/50000 (77%)]	Loss: 1.962561
+
+ Downstream Train loss: 2.0193226544224485 Acc: 0.3349
+Downstream Train Epoch: 56 [0/50000 (0%)]	Loss: 1.998139
+Downstream Train Epoch: 56 [12800/50000 (26%)]	Loss: 2.066885
+Downstream Train Epoch: 56 [25600/50000 (51%)]	Loss: 1.933962
+Downstream Train Epoch: 56 [38400/50000 (77%)]	Loss: 2.103357
+
+ Downstream Train loss: 2.0197832055237828 Acc: 0.3349
+Downstream Train Epoch: 57 [0/50000 (0%)]	Loss: 2.023913
+Downstream Train Epoch: 57 [12800/50000 (26%)]	Loss: 2.007709
+Downstream Train Epoch: 57 [25600/50000 (51%)]	Loss: 2.052899
+Downstream Train Epoch: 57 [38400/50000 (77%)]	Loss: 2.073916
+
+ Downstream Train loss: 2.0170734901817475 Acc: 0.3349
+Downstream Train Epoch: 58 [0/50000 (0%)]	Loss: 1.985170
+Downstream Train Epoch: 58 [12800/50000 (26%)]	Loss: 2.000984
+Downstream Train Epoch: 58 [25600/50000 (51%)]	Loss: 2.040551
+Downstream Train Epoch: 58 [38400/50000 (77%)]	Loss: 1.867494
+
+ Downstream Train loss: 2.021358313609143 Acc: 0.3349

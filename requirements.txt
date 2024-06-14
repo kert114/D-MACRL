@@ -1,0 +1,40 @@
+pip install torchvision torch tensorboardX scikit-learn imageio tqdm IPython seaborn scipy numpy einops timm psutil
+
+tensorboard --logdir=/rds/general/user/kl3620/home/FYP/fed_sim/save
+
+tensorboard --logdir=/rds/general/user/kl3620/home/FYP/fed_sim/save --host localhost --port 8088
+
+tensorboard --logdir=/Users/kertlaansalu/workImperialLocal/fyp/federated_SimCLR/fed_sim/save --host localhost --port 8087
+
+
+tensorboard --logdir=/root/fed_sim/save --host localhost --port 8089
+
+/root/fed_sim/save
+
+source venv/bin/activate
+
+nohup ./run_all.sh &
+
+ash run_exact_dirich.sh 
+
+bash ./run_exact_dirich.sh &
+
+nohup ./run_exact_dirich.sh &
+bash tmp.sh &
+chmod +x require.sh
+chmod +x run_exact_dirich.sh
+
+
+bash require.sh
+
+chmod +x run_pod.sh
+
+chmod +x run_edge_var.sh 
+nohup ./run_exact_var.sh &
+nohup ./run_pod.sh &
+nohup ./run_edge_var.sh &
+
+
+
+ps to see processes
+kill -9 "nr of process"
