@@ -1,0 +1,1012 @@
+
+Experimental details:
+    Model     : resnet
+    Optimizer : adam
+    Learning  : 0.001
+    Global Rounds   : 30
+
+    Fraction of users  : 1.0
+    Local Batch size   : 256
+    Local Epochs       : 5.0
+
+Running model details  dirich_True_dec-True_ED-False_pe0.8_a5_e30_le5.0
+device:  cuda
+sampling for dataset: mnist
+Files already downloaded and verified
+train dataset sample num: (50000, 32, 32, 3)
+Files already downloaded and verified
+Files already downloaded and verified
+get dataset time: 2.156
+Y dirichlet sampling
+sample dataset time: 0.031
+user data samples: [10003, 14170, 5826, 9999, 10002]
+Namespace(split_dataset=None, average_with_A=False, phi_equal_w=False, exact_diffusion=False, decentralized=True, edge_prob=0.8, epochs=30, num_users=5, frac=1.0, local_ep=5.0, local_bs=256, lr=0.001, momentum=0.9, num_workers=16, model='resnet', batch_size=256, weight_decay=0.0005, dataset='mnist', backbone='resnet18', num_classes=10, gpu='1', optimizer='adam', save_name_suffix='', iid=0, verbose=0, seed=1, feature_dim=128, temperature=0.5, k=200, ssl_method='simclr', x_noniid=False, dirichlet=True, test_intermediate=False, dir_beta=0.01, imagenet_based_cluster=False, y_partition=False, log_file_name='comm_scripts/best_linear_statistics_skew_ssl_comm.csv', num_clusters=1, imagenet100=False, y_partition_skew=False, y_partition_ratio=1, x_shift_dirichlet=False, reg_scale=1, load_pretrained_path='', full_size=False, local_rank=0, distributed_training=False, log_directory='dirichlet_short/06-03_03:03_drich-true_dec-true_ED-false_ep0.8_e30_le5_a5', emd=0, dist_url='env://', average_without_bn=False, model_continue_training=0, finetuning_epoch=40, script_name='', x_shift_skew=False, load_dataset_to_memory=False)
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+output model: save/06-03_03:03_70547dirich_True_dec-True_ED-False_pe0.8_a5_e30_le5.0
+number of users per round: 5
+total number of rounds: 6
+Training uses 0.8 andd validation 0.8 of the dataset
+idx train:  8002
+Training uses 0.8 andd validation 0.8 of the dataset
+idx train:  11336
+Training uses 0.8 andd validation 0.8 of the dataset
+idx train:  4660
+Training uses 0.8 andd validation 0.8 of the dataset
+idx train:  7999
+Training uses 0.8 andd validation 0.8 of the dataset
+idx train:  8001
+matrix C  [[1. 1. 0. 1. 1.]
+ [1. 1. 1. 1. 1.]
+ [0. 1. 1. 1. 1.]
+ [1. 1. 1. 1. 1.]
+ [1. 1. 1. 1. 1.]]
+5.0
+5.0
+5.0
+5.0
+5.0
+5.0
+5.0
+5.0
+5.0
+matrix A  [[0.4 0.2 0.  0.2 0.2]
+ [0.2 0.2 0.2 0.2 0.2]
+ [0.  0.2 0.4 0.2 0.2]
+ [0.2 0.2 0.2 0.2 0.2]
+ [0.2 0.2 0.2 0.2 0.2]]
+Createda a Communication graph with edges = :  [(0, 1), (0, 3), (0, 4), (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
+Number of edges:  9
+Graph nodes:  [0, 1, 2, 3, 4]
+
+ | Global Training Round : 1 | Model : 06-03_03:03_70547
+
+Updating local model for agent:  0
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [0/8002 (0%)]	Loss: 6.149795                         LR: 0.0010  Feat: 0.762 Epoch Time: 4.687 Model Time: 2.433 Data Time: 2.254 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [2560/8002 (32%)]	Loss: 5.663513                         LR: 0.0010  Feat: 0.903 Epoch Time: 5.874 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [5120/8002 (65%)]	Loss: 5.453995                         LR: 0.0010  Feat: 0.927 Epoch Time: 7.066 Model Time: 0.055 Data Time: 0.063 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 0.0 | [7680/8002 (97%)]	Loss: 5.566208                         LR: 0.0010  Feat: 0.925 Epoch Time: 8.259 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 1.0 | [0/8002 (0%)]	Loss: 5.479657                         LR: 0.0010  Feat: 0.942 Epoch Time: 9.911 Model Time: 0.087 Data Time: 1.439 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 1.0 | [2560/8002 (32%)]	Loss: 5.377763                         LR: 0.0010  Feat: 0.963 Epoch Time: 11.165 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 1.0 | [5120/8002 (65%)]	Loss: 5.379994                         LR: 0.0003  Feat: 0.979 Epoch Time: 12.356 Model Time: 0.048 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 1.0 | [7680/8002 (97%)]	Loss: 5.319188                         LR: 0.0003  Feat: 0.962 Epoch Time: 13.549 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 2.0 | [0/8002 (0%)]	Loss: 5.265151                         LR: 0.0003  Feat: 0.964 Epoch Time: 15.235 Model Time: 0.101 Data Time: 1.502 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 2.0 | [2560/8002 (32%)]	Loss: 5.329379                         LR: 0.0003  Feat: 0.962 Epoch Time: 16.486 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 2.0 | [5120/8002 (65%)]	Loss: 5.326998                         LR: 0.0003  Feat: 0.965 Epoch Time: 17.683 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 2.0 | [7680/8002 (97%)]	Loss: 5.231746                         LR: 0.0001  Feat: 0.964 Epoch Time: 18.880 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 3.0 | [0/8002 (0%)]	Loss: 5.302552                         LR: 0.0001  Feat: 0.962 Epoch Time: 20.311 Model Time: 0.080 Data Time: 1.220 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 3.0 | [2560/8002 (32%)]	Loss: 5.220391                         LR: 0.0001  Feat: 0.968 Epoch Time: 21.789 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 3.0 | [5120/8002 (65%)]	Loss: 5.226684                         LR: 0.0001  Feat: 0.971 Epoch Time: 22.987 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 3.0 | [7680/8002 (97%)]	Loss: 5.222666                         LR: 0.0001  Feat: 0.962 Epoch Time: 24.186 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 4.0 | [0/8002 (0%)]	Loss: 5.259097                         LR: 0.0001  Feat: 0.966 Epoch Time: 25.811 Model Time: 0.095 Data Time: 1.396 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 4.0 | [2560/8002 (32%)]	Loss: 5.263338                         LR: 0.0001  Feat: 0.963 Epoch Time: 27.072 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 4.0 | [5120/8002 (65%)]	Loss: 5.231648                         LR: 0.0000  Feat: 0.964 Epoch Time: 28.271 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 0 | Local Epoch : 4.0 | [7680/8002 (97%)]	Loss: 5.241905                         LR: 0.0000  Feat: 0.960 Epoch Time: 29.471 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  1
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 0.0 | [0/11336 (0%)]	Loss: 6.119913                         LR: 0.0010  Feat: 0.773 Epoch Time: 1.633 Model Time: 0.109 Data Time: 1.454 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 0.0 | [2560/11336 (23%)]	Loss: 5.743470                         LR: 0.0010  Feat: 0.893 Epoch Time: 2.892 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 0.0 | [5120/11336 (45%)]	Loss: 5.588090                         LR: 0.0010  Feat: 0.894 Epoch Time: 4.094 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 0.0 | [7680/11336 (68%)]	Loss: 5.528884                         LR: 0.0010  Feat: 0.935 Epoch Time: 5.294 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 0.0 | [10240/11336 (91%)]	Loss: 5.598651                         LR: 0.0010  Feat: 0.930 Epoch Time: 6.495 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 1.0 | [0/11336 (0%)]	Loss: 5.479588                         LR: 0.0010  Feat: 0.927 Epoch Time: 8.533 Model Time: 0.101 Data Time: 1.432 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 1.0 | [2560/11336 (23%)]	Loss: 5.448823                         LR: 0.0003  Feat: 0.947 Epoch Time: 9.792 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 1.0 | [5120/11336 (45%)]	Loss: 5.381684                         LR: 0.0003  Feat: 0.951 Epoch Time: 10.996 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 1.0 | [7680/11336 (68%)]	Loss: 5.366974                         LR: 0.0003  Feat: 0.949 Epoch Time: 12.198 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 1.0 | [10240/11336 (91%)]	Loss: 5.306591                         LR: 0.0003  Feat: 0.959 Epoch Time: 13.401 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 2.0 | [0/11336 (0%)]	Loss: 5.421072                         LR: 0.0003  Feat: 0.954 Epoch Time: 15.433 Model Time: 0.087 Data Time: 1.449 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 2.0 | [2560/11336 (23%)]	Loss: 5.386513                         LR: 0.0001  Feat: 0.949 Epoch Time: 16.673 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 2.0 | [5120/11336 (45%)]	Loss: 5.387447                         LR: 0.0001  Feat: 0.950 Epoch Time: 17.879 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 2.0 | [7680/11336 (68%)]	Loss: 5.378259                         LR: 0.0001  Feat: 0.944 Epoch Time: 19.084 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 2.0 | [10240/11336 (91%)]	Loss: 5.348516                         LR: 0.0001  Feat: 0.950 Epoch Time: 20.289 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 3.0 | [0/11336 (0%)]	Loss: 5.374215                         LR: 0.0001  Feat: 0.950 Epoch Time: 22.434 Model Time: 0.086 Data Time: 1.571 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 3.0 | [2560/11336 (23%)]	Loss: 5.216684                         LR: 0.0000  Feat: 0.949 Epoch Time: 23.673 Model Time: 0.056 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 3.0 | [5120/11336 (45%)]	Loss: 5.337967                         LR: 0.0000  Feat: 0.951 Epoch Time: 24.877 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 3.0 | [7680/11336 (68%)]	Loss: 5.311071                         LR: 0.0000  Feat: 0.950 Epoch Time: 26.085 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 3.0 | [10240/11336 (91%)]	Loss: 5.336891                         LR: 0.0000  Feat: 0.946 Epoch Time: 27.290 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 4.0 | [0/11336 (0%)]	Loss: 5.282665                         LR: 0.0000  Feat: 0.949 Epoch Time: 29.334 Model Time: 0.109 Data Time: 1.424 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 4.0 | [2560/11336 (23%)]	Loss: 5.327646                         LR: 0.0000  Feat: 0.951 Epoch Time: 30.600 Model Time: 0.056 Data Time: 0.068 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 4.0 | [5120/11336 (45%)]	Loss: 5.293163                         LR: 0.0000  Feat: 0.950 Epoch Time: 31.807 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 4.0 | [7680/11336 (68%)]	Loss: 5.300319                         LR: 0.0000  Feat: 0.951 Epoch Time: 33.015 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 0 | Local Epoch : 4.0 | [10240/11336 (91%)]	Loss: 5.315569                         LR: 0.0000  Feat: 0.946 Epoch Time: 34.222 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  2
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 0.0 | [0/4660 (0%)]	Loss: 6.193964                         LR: 0.0010  Feat: 0.785 Epoch Time: 1.543 Model Time: 0.064 Data Time: 1.421 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 0.0 | [2560/4660 (56%)]	Loss: 5.638612                         LR: 0.0010  Feat: 0.905 Epoch Time: 2.750 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 1.0 | [0/4660 (0%)]	Loss: 5.602566                         LR: 0.0010  Feat: 0.938 Epoch Time: 5.208 Model Time: 0.064 Data Time: 1.432 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 1.0 | [2560/4660 (56%)]	Loss: 5.677464                         LR: 0.0010  Feat: 0.946 Epoch Time: 6.415 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 2.0 | [0/4660 (0%)]	Loss: 5.521888                         LR: 0.0010  Feat: 0.960 Epoch Time: 8.910 Model Time: 0.059 Data Time: 1.459 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 2.0 | [2560/4660 (56%)]	Loss: 5.480366                         LR: 0.0003  Feat: 0.973 Epoch Time: 10.116 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 3.0 | [0/4660 (0%)]	Loss: 5.453790                         LR: 0.0003  Feat: 0.975 Epoch Time: 12.602 Model Time: 0.058 Data Time: 1.458 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 3.0 | [2560/4660 (56%)]	Loss: 5.429200                         LR: 0.0003  Feat: 0.977 Epoch Time: 13.807 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 4.0 | [0/4660 (0%)]	Loss: 5.474162                         LR: 0.0003  Feat: 0.975 Epoch Time: 16.193 Model Time: 0.060 Data Time: 1.359 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 0 | Local Epoch : 4.0 | [2560/4660 (56%)]	Loss: 5.397869                         LR: 0.0003  Feat: 0.974 Epoch Time: 17.396 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  3
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 0.0 | [0/7999 (0%)]	Loss: 6.166793                         LR: 0.0010  Feat: 0.776 Epoch Time: 1.638 Model Time: 0.111 Data Time: 1.453 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 0.0 | [2560/7999 (32%)]	Loss: 5.565557                         LR: 0.0010  Feat: 0.926 Epoch Time: 2.898 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 0.0 | [5120/7999 (65%)]	Loss: 5.480217                         LR: 0.0010  Feat: 0.961 Epoch Time: 4.102 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 0.0 | [7680/7999 (97%)]	Loss: 5.399439                         LR: 0.0010  Feat: 0.978 Epoch Time: 5.307 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 1.0 | [0/7999 (0%)]	Loss: 5.468304                         LR: 0.0010  Feat: 0.974 Epoch Time: 6.938 Model Time: 0.102 Data Time: 1.392 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 1.0 | [2560/7999 (32%)]	Loss: 5.444442                         LR: 0.0010  Feat: 0.987 Epoch Time: 8.173 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 1.0 | [5120/7999 (65%)]	Loss: 5.390833                         LR: 0.0003  Feat: 0.985 Epoch Time: 9.375 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 1.0 | [7680/7999 (97%)]	Loss: 5.401567                         LR: 0.0003  Feat: 0.996 Epoch Time: 10.581 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 2.0 | [0/7999 (0%)]	Loss: 5.379186                         LR: 0.0003  Feat: 0.997 Epoch Time: 12.238 Model Time: 0.096 Data Time: 1.419 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 2.0 | [2560/7999 (32%)]	Loss: 5.371884                         LR: 0.0003  Feat: 0.994 Epoch Time: 13.500 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 2.0 | [5120/7999 (65%)]	Loss: 5.333085                         LR: 0.0003  Feat: 0.991 Epoch Time: 14.705 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 2.0 | [7680/7999 (97%)]	Loss: 5.327123                         LR: 0.0001  Feat: 0.989 Epoch Time: 15.909 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 3.0 | [0/7999 (0%)]	Loss: 5.323451                         LR: 0.0001  Feat: 0.987 Epoch Time: 17.638 Model Time: 0.085 Data Time: 1.491 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 3.0 | [2560/7999 (32%)]	Loss: 5.313694                         LR: 0.0001  Feat: 0.991 Epoch Time: 18.862 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 3.0 | [5120/7999 (65%)]	Loss: 5.363729                         LR: 0.0001  Feat: 0.983 Epoch Time: 20.068 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 3.0 | [7680/7999 (97%)]	Loss: 5.225986                         LR: 0.0001  Feat: 0.984 Epoch Time: 21.274 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 4.0 | [0/7999 (0%)]	Loss: 5.307829                         LR: 0.0001  Feat: 0.986 Epoch Time: 23.069 Model Time: 0.100 Data Time: 1.609 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 4.0 | [2560/7999 (32%)]	Loss: 5.302518                         LR: 0.0001  Feat: 0.986 Epoch Time: 24.321 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 4.0 | [5120/7999 (65%)]	Loss: 5.295833                         LR: 0.0000  Feat: 0.986 Epoch Time: 25.525 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 0 | Local Epoch : 4.0 | [7680/7999 (97%)]	Loss: 5.242714                         LR: 0.0000  Feat: 0.986 Epoch Time: 26.732 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  4
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 0.0 | [0/8001 (0%)]	Loss: 6.141344                         LR: 0.0010  Feat: 0.779 Epoch Time: 1.430 Model Time: 0.104 Data Time: 1.307 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 0.0 | [2560/8001 (32%)]	Loss: 5.620803                         LR: 0.0010  Feat: 0.901 Epoch Time: 2.747 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 0.0 | [5120/8001 (65%)]	Loss: 5.503588                         LR: 0.0010  Feat: 0.936 Epoch Time: 3.952 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 0.0 | [7680/8001 (97%)]	Loss: 5.489464                         LR: 0.0010  Feat: 0.959 Epoch Time: 5.158 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 1.0 | [0/8001 (0%)]	Loss: 5.440240                         LR: 0.0010  Feat: 0.959 Epoch Time: 6.905 Model Time: 0.090 Data Time: 1.517 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 1.0 | [2560/8001 (32%)]	Loss: 5.557615                         LR: 0.0010  Feat: 0.959 Epoch Time: 8.166 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 1.0 | [5120/8001 (65%)]	Loss: 5.419518                         LR: 0.0003  Feat: 0.963 Epoch Time: 9.366 Model Time: 0.055 Data Time: 0.070 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 1.0 | [7680/8001 (97%)]	Loss: 5.320952                         LR: 0.0003  Feat: 0.959 Epoch Time: 10.569 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 2.0 | [0/8001 (0%)]	Loss: 5.350064                         LR: 0.0003  Feat: 0.958 Epoch Time: 12.210 Model Time: 0.097 Data Time: 1.415 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 2.0 | [2560/8001 (32%)]	Loss: 5.358188                         LR: 0.0003  Feat: 0.962 Epoch Time: 13.468 Model Time: 0.058 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 2.0 | [5120/8001 (65%)]	Loss: 5.302531                         LR: 0.0003  Feat: 0.954 Epoch Time: 14.674 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 2.0 | [7680/8001 (97%)]	Loss: 5.321041                         LR: 0.0001  Feat: 0.965 Epoch Time: 15.880 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 3.0 | [0/8001 (0%)]	Loss: 5.377330                         LR: 0.0001  Feat: 0.965 Epoch Time: 17.405 Model Time: 0.083 Data Time: 1.297 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 3.0 | [2560/8001 (32%)]	Loss: 5.322316                         LR: 0.0001  Feat: 0.964 Epoch Time: 18.644 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 3.0 | [5120/8001 (65%)]	Loss: 5.370645                         LR: 0.0001  Feat: 0.960 Epoch Time: 19.852 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 3.0 | [7680/8001 (97%)]	Loss: 5.340232                         LR: 0.0001  Feat: 0.959 Epoch Time: 21.057 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 4.0 | [0/8001 (0%)]	Loss: 5.318716                         LR: 0.0001  Feat: 0.962 Epoch Time: 22.705 Model Time: 0.092 Data Time: 1.427 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 4.0 | [2560/8001 (32%)]	Loss: 5.286554                         LR: 0.0001  Feat: 0.963 Epoch Time: 23.944 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 4.0 | [5120/8001 (65%)]	Loss: 5.364437                         LR: 0.0000  Feat: 0.967 Epoch Time: 25.150 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 0 | Local Epoch : 4.0 | [7680/8001 (97%)]	Loss: 5.289373                         LR: 0.0000  Feat: 0.965 Epoch Time: 26.356 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Regular Decentralized averaging 
+dividing sum by:  4
+regular avg, epoch 0 new weights for agent 0 and key f.6.0.bn2.weight are : tensor([1.0040, 0.9960, 1.0008, 0.9981, 0.9939], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 0 new weights for agent 1 and key f.6.0.bn2.weight are : tensor([1.0027, 0.9970, 0.9989, 0.9996, 0.9947], device='cuda:0')
+dividing sum by:  4
+regular avg, epoch 0 new weights for agent 2 and key f.6.0.bn2.weight are : tensor([1.0022, 0.9968, 0.9946, 1.0020, 0.9935], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 0 new weights for agent 3 and key f.6.0.bn2.weight are : tensor([1.0027, 0.9970, 0.9989, 0.9996, 0.9947], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 0 new weights for agent 4 and key f.6.0.bn2.weight are : tensor([1.0027, 0.9970, 0.9989, 0.9996, 0.9947], device='cuda:0')
+
+ | Global Training Round : 2 | Model : 06-03_03:03_70547
+
+Updating local model for agent:  0
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 5.0 | [0/8002 (0%)]	Loss: 5.986391                         LR: 0.0003  Feat: 0.888 Epoch Time: 1.501 Model Time: 0.099 Data Time: 1.345 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 5.0 | [2560/8002 (32%)]	Loss: 5.500370                         LR: 0.0003  Feat: 0.930 Epoch Time: 2.831 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 5.0 | [5120/8002 (65%)]	Loss: 5.427896                         LR: 0.0003  Feat: 0.943 Epoch Time: 4.038 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 5.0 | [7680/8002 (97%)]	Loss: 5.441243                         LR: 0.0003  Feat: 0.947 Epoch Time: 5.244 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 6.0 | [0/8002 (0%)]	Loss: 5.348763                         LR: 0.0003  Feat: 0.947 Epoch Time: 7.105 Model Time: 0.097 Data Time: 1.637 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 6.0 | [2560/8002 (32%)]	Loss: 5.439232                         LR: 0.0003  Feat: 0.956 Epoch Time: 8.312 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 6.0 | [5120/8002 (65%)]	Loss: 5.328850                         LR: 0.0001  Feat: 0.961 Epoch Time: 9.518 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 6.0 | [7680/8002 (97%)]	Loss: 5.371057                         LR: 0.0001  Feat: 0.957 Epoch Time: 10.724 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 7.0 | [0/8002 (0%)]	Loss: 5.221614                         LR: 0.0001  Feat: 0.959 Epoch Time: 12.390 Model Time: 0.102 Data Time: 1.431 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 7.0 | [2560/8002 (32%)]	Loss: 5.242472                         LR: 0.0001  Feat: 0.957 Epoch Time: 13.629 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 7.0 | [5120/8002 (65%)]	Loss: 5.278837                         LR: 0.0001  Feat: 0.954 Epoch Time: 14.835 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 7.0 | [7680/8002 (97%)]	Loss: 5.281607                         LR: 0.0000  Feat: 0.958 Epoch Time: 16.041 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 8.0 | [0/8002 (0%)]	Loss: 5.248586                         LR: 0.0000  Feat: 0.958 Epoch Time: 17.690 Model Time: 0.101 Data Time: 1.407 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 8.0 | [2560/8002 (32%)]	Loss: 5.261934                         LR: 0.0000  Feat: 0.956 Epoch Time: 18.953 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 8.0 | [5120/8002 (65%)]	Loss: 5.250306                         LR: 0.0000  Feat: 0.957 Epoch Time: 20.159 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 8.0 | [7680/8002 (97%)]	Loss: 5.269669                         LR: 0.0000  Feat: 0.958 Epoch Time: 21.365 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 9.0 | [0/8002 (0%)]	Loss: 5.222930                         LR: 0.0000  Feat: 0.955 Epoch Time: 23.190 Model Time: 0.086 Data Time: 1.587 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 9.0 | [2560/8002 (32%)]	Loss: 5.216312                         LR: 0.0000  Feat: 0.954 Epoch Time: 24.415 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 9.0 | [5120/8002 (65%)]	Loss: 5.262425                         LR: 0.0000  Feat: 0.955 Epoch Time: 25.621 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 1 | Local Epoch : 9.0 | [7680/8002 (97%)]	Loss: 5.185299                         LR: 0.0000  Feat: 0.956 Epoch Time: 26.827 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  1
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 5.0 | [0/11336 (0%)]	Loss: 5.928009                         LR: 0.0003  Feat: 0.887 Epoch Time: 1.659 Model Time: 0.091 Data Time: 1.499 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 5.0 | [2560/11336 (23%)]	Loss: 5.612066                         LR: 0.0003  Feat: 0.934 Epoch Time: 2.926 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 5.0 | [5120/11336 (45%)]	Loss: 5.455630                         LR: 0.0003  Feat: 0.928 Epoch Time: 4.133 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 5.0 | [7680/11336 (68%)]	Loss: 5.508562                         LR: 0.0003  Feat: 0.938 Epoch Time: 5.338 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 5.0 | [10240/11336 (91%)]	Loss: 5.493237                         LR: 0.0003  Feat: 0.945 Epoch Time: 6.545 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 6.0 | [0/11336 (0%)]	Loss: 5.488643                         LR: 0.0003  Feat: 0.946 Epoch Time: 8.859 Model Time: 0.096 Data Time: 1.706 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 6.0 | [2560/11336 (23%)]	Loss: 5.439996                         LR: 0.0001  Feat: 0.944 Epoch Time: 10.067 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 6.0 | [5120/11336 (45%)]	Loss: 5.361353                         LR: 0.0001  Feat: 0.944 Epoch Time: 11.275 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 6.0 | [7680/11336 (68%)]	Loss: 5.400371                         LR: 0.0001  Feat: 0.948 Epoch Time: 12.482 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 6.0 | [10240/11336 (91%)]	Loss: 5.369923                         LR: 0.0001  Feat: 0.946 Epoch Time: 13.688 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 7.0 | [0/11336 (0%)]	Loss: 5.327779                         LR: 0.0001  Feat: 0.945 Epoch Time: 15.890 Model Time: 0.099 Data Time: 1.645 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 7.0 | [2560/11336 (23%)]	Loss: 5.370086                         LR: 0.0000  Feat: 0.945 Epoch Time: 17.143 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 7.0 | [5120/11336 (45%)]	Loss: 5.357546                         LR: 0.0000  Feat: 0.946 Epoch Time: 18.349 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 7.0 | [7680/11336 (68%)]	Loss: 5.318537                         LR: 0.0000  Feat: 0.947 Epoch Time: 19.556 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 7.0 | [10240/11336 (91%)]	Loss: 5.424466                         LR: 0.0000  Feat: 0.943 Epoch Time: 20.763 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 8.0 | [0/11336 (0%)]	Loss: 5.427075                         LR: 0.0000  Feat: 0.943 Epoch Time: 22.859 Model Time: 0.098 Data Time: 1.490 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 8.0 | [2560/11336 (23%)]	Loss: 5.306942                         LR: 0.0000  Feat: 0.945 Epoch Time: 24.125 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 8.0 | [5120/11336 (45%)]	Loss: 5.312204                         LR: 0.0000  Feat: 0.944 Epoch Time: 25.332 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 8.0 | [7680/11336 (68%)]	Loss: 5.331200                         LR: 0.0000  Feat: 0.947 Epoch Time: 26.539 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 8.0 | [10240/11336 (91%)]	Loss: 5.315685                         LR: 0.0000  Feat: 0.943 Epoch Time: 27.745 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 9.0 | [0/11336 (0%)]	Loss: 5.266527                         LR: 0.0000  Feat: 0.946 Epoch Time: 29.759 Model Time: 0.108 Data Time: 1.405 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 9.0 | [2560/11336 (23%)]	Loss: 5.314258                         LR: 0.0000  Feat: 0.946 Epoch Time: 31.001 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 9.0 | [5120/11336 (45%)]	Loss: 5.325842                         LR: 0.0000  Feat: 0.943 Epoch Time: 32.210 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 9.0 | [7680/11336 (68%)]	Loss: 5.324448                         LR: 0.0000  Feat: 0.944 Epoch Time: 33.418 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 1 | Local Epoch : 9.0 | [10240/11336 (91%)]	Loss: 5.317881                         LR: 0.0000  Feat: 0.942 Epoch Time: 34.626 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  2
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 5.0 | [0/4660 (0%)]	Loss: 6.047407                         LR: 0.0003  Feat: 0.894 Epoch Time: 1.477 Model Time: 0.080 Data Time: 1.331 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 5.0 | [2560/4660 (56%)]	Loss: 5.646554                         LR: 0.0003  Feat: 0.930 Epoch Time: 2.733 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 6.0 | [0/4660 (0%)]	Loss: 5.534017                         LR: 0.0003  Feat: 0.936 Epoch Time: 5.231 Model Time: 0.054 Data Time: 1.466 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 6.0 | [2560/4660 (56%)]	Loss: 5.441202                         LR: 0.0003  Feat: 0.942 Epoch Time: 6.439 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 7.0 | [0/4660 (0%)]	Loss: 5.465726                         LR: 0.0003  Feat: 0.947 Epoch Time: 8.968 Model Time: 0.056 Data Time: 1.488 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 7.0 | [2560/4660 (56%)]	Loss: 5.413984                         LR: 0.0001  Feat: 0.952 Epoch Time: 10.174 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 8.0 | [0/4660 (0%)]	Loss: 5.423470                         LR: 0.0001  Feat: 0.951 Epoch Time: 12.561 Model Time: 0.082 Data Time: 1.343 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 8.0 | [2560/4660 (56%)]	Loss: 5.339362                         LR: 0.0001  Feat: 0.946 Epoch Time: 13.784 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 9.0 | [0/4660 (0%)]	Loss: 5.345430                         LR: 0.0001  Feat: 0.951 Epoch Time: 16.119 Model Time: 0.099 Data Time: 1.296 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 1 | Local Epoch : 9.0 | [2560/4660 (56%)]	Loss: 5.360696                         LR: 0.0001  Feat: 0.953 Epoch Time: 17.346 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  3
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 5.0 | [0/7999 (0%)]	Loss: 5.991563                         LR: 0.0003  Feat: 0.886 Epoch Time: 1.613 Model Time: 0.095 Data Time: 1.453 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 5.0 | [2560/7999 (32%)]	Loss: 5.474459                         LR: 0.0003  Feat: 0.936 Epoch Time: 2.876 Model Time: 0.055 Data Time: 0.067 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 5.0 | [5120/7999 (65%)]	Loss: 5.482448                         LR: 0.0003  Feat: 0.950 Epoch Time: 4.081 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 5.0 | [7680/7999 (97%)]	Loss: 5.419146                         LR: 0.0003  Feat: 0.955 Epoch Time: 5.285 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 6.0 | [0/7999 (0%)]	Loss: 5.417181                         LR: 0.0003  Feat: 0.955 Epoch Time: 7.028 Model Time: 0.101 Data Time: 1.548 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 6.0 | [2560/7999 (32%)]	Loss: 5.342519                         LR: 0.0003  Feat: 0.965 Epoch Time: 8.270 Model Time: 0.047 Data Time: 0.073 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 6.0 | [5120/7999 (65%)]	Loss: 5.290110                         LR: 0.0001  Feat: 0.962 Epoch Time: 9.465 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 6.0 | [7680/7999 (97%)]	Loss: 5.323640                         LR: 0.0001  Feat: 0.960 Epoch Time: 10.661 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 7.0 | [0/7999 (0%)]	Loss: 5.311709                         LR: 0.0001  Feat: 0.963 Epoch Time: 12.337 Model Time: 0.104 Data Time: 1.481 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 7.0 | [2560/7999 (32%)]	Loss: 5.233156                         LR: 0.0001  Feat: 0.959 Epoch Time: 13.598 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 7.0 | [5120/7999 (65%)]	Loss: 5.298987                         LR: 0.0001  Feat: 0.961 Epoch Time: 14.803 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 7.0 | [7680/7999 (97%)]	Loss: 5.196870                         LR: 0.0000  Feat: 0.963 Epoch Time: 16.008 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 8.0 | [0/7999 (0%)]	Loss: 5.270540                         LR: 0.0000  Feat: 0.960 Epoch Time: 17.727 Model Time: 0.100 Data Time: 1.522 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 8.0 | [2560/7999 (32%)]	Loss: 5.173010                         LR: 0.0000  Feat: 0.959 Epoch Time: 18.972 Model Time: 0.048 Data Time: 0.073 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 8.0 | [5120/7999 (65%)]	Loss: 5.198462                         LR: 0.0000  Feat: 0.961 Epoch Time: 20.166 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 8.0 | [7680/7999 (97%)]	Loss: 5.225493                         LR: 0.0000  Feat: 0.959 Epoch Time: 21.361 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 9.0 | [0/7999 (0%)]	Loss: 5.191809                         LR: 0.0000  Feat: 0.961 Epoch Time: 22.996 Model Time: 0.099 Data Time: 1.384 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 9.0 | [2560/7999 (32%)]	Loss: 5.302400                         LR: 0.0000  Feat: 0.958 Epoch Time: 24.254 Model Time: 0.048 Data Time: 0.073 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 9.0 | [5120/7999 (65%)]	Loss: 5.206466                         LR: 0.0000  Feat: 0.958 Epoch Time: 25.457 Model Time: 0.055 Data Time: 0.070 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 1 | Local Epoch : 9.0 | [7680/7999 (97%)]	Loss: 5.204266                         LR: 0.0000  Feat: 0.959 Epoch Time: 26.661 Model Time: 0.054 Data Time: 0.066 Model: 06-03_03:03_70547
+Updating local model for agent:  4
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 5.0 | [0/8001 (0%)]	Loss: 5.998241                         LR: 0.0003  Feat: 0.886 Epoch Time: 1.742 Model Time: 0.091 Data Time: 1.568 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 5.0 | [2560/8001 (32%)]	Loss: 5.505287                         LR: 0.0003  Feat: 0.935 Epoch Time: 3.004 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 5.0 | [5120/8001 (65%)]	Loss: 5.496708                         LR: 0.0003  Feat: 0.948 Epoch Time: 4.209 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 5.0 | [7680/8001 (97%)]	Loss: 5.491262                         LR: 0.0003  Feat: 0.951 Epoch Time: 5.415 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 6.0 | [0/8001 (0%)]	Loss: 5.468529                         LR: 0.0003  Feat: 0.953 Epoch Time: 7.142 Model Time: 0.079 Data Time: 1.507 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 6.0 | [2560/8001 (32%)]	Loss: 5.427032                         LR: 0.0003  Feat: 0.958 Epoch Time: 8.360 Model Time: 0.048 Data Time: 0.068 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 6.0 | [5120/8001 (65%)]	Loss: 5.458999                         LR: 0.0001  Feat: 0.957 Epoch Time: 9.560 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 6.0 | [7680/8001 (97%)]	Loss: 5.354537                         LR: 0.0001  Feat: 0.955 Epoch Time: 10.760 Model Time: 0.055 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 7.0 | [0/8001 (0%)]	Loss: 5.396746                         LR: 0.0001  Feat: 0.957 Epoch Time: 12.442 Model Time: 0.085 Data Time: 1.469 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 7.0 | [2560/8001 (32%)]	Loss: 5.316601                         LR: 0.0001  Feat: 0.955 Epoch Time: 13.701 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 7.0 | [5120/8001 (65%)]	Loss: 5.323483                         LR: 0.0001  Feat: 0.956 Epoch Time: 14.903 Model Time: 0.056 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 7.0 | [7680/8001 (97%)]	Loss: 5.307714                         LR: 0.0000  Feat: 0.956 Epoch Time: 16.103 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 8.0 | [0/8001 (0%)]	Loss: 5.390525                         LR: 0.0000  Feat: 0.954 Epoch Time: 17.870 Model Time: 0.095 Data Time: 1.579 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 8.0 | [2560/8001 (32%)]	Loss: 5.312786                         LR: 0.0000  Feat: 0.952 Epoch Time: 19.126 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 8.0 | [5120/8001 (65%)]	Loss: 5.299698                         LR: 0.0000  Feat: 0.954 Epoch Time: 20.331 Model Time: 0.057 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 8.0 | [7680/8001 (97%)]	Loss: 5.317925                         LR: 0.0000  Feat: 0.954 Epoch Time: 21.536 Model Time: 0.048 Data Time: 0.070 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 9.0 | [0/8001 (0%)]	Loss: 5.290218                         LR: 0.0000  Feat: 0.955 Epoch Time: 23.242 Model Time: 0.099 Data Time: 1.456 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 9.0 | [2560/8001 (32%)]	Loss: 5.267601                         LR: 0.0000  Feat: 0.954 Epoch Time: 24.501 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 9.0 | [5120/8001 (65%)]	Loss: 5.308694                         LR: 0.0000  Feat: 0.953 Epoch Time: 25.706 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 1 | Local Epoch : 9.0 | [7680/8001 (97%)]	Loss: 5.337272                         LR: 0.0000  Feat: 0.954 Epoch Time: 26.913 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Regular Decentralized averaging 
+dividing sum by:  4
+regular avg, epoch 1 new weights for agent 0 and key f.6.0.bn2.weight are : tensor([1.0028, 0.9960, 1.0003, 0.9965, 0.9955], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 1 new weights for agent 1 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9966, 0.9991, 0.9980, 0.9953], device='cuda:0')
+dividing sum by:  4
+regular avg, epoch 1 new weights for agent 2 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9968, 0.9988, 0.9985, 0.9951], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 1 new weights for agent 3 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9966, 0.9991, 0.9980, 0.9953], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 1 new weights for agent 4 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9966, 0.9991, 0.9980, 0.9953], device='cuda:0')
+
+ | Global Training Round : 3 | Model : 06-03_03:03_70547
+
+Updating local model for agent:  0
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 10.0 | [0/8002 (0%)]	Loss: 5.441582                         LR: 0.0003  Feat: 0.937 Epoch Time: 1.615 Model Time: 0.094 Data Time: 1.464 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 10.0 | [2560/8002 (32%)]	Loss: 5.481394                         LR: 0.0003  Feat: 0.964 Epoch Time: 2.875 Model Time: 0.057 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 10.0 | [5120/8002 (65%)]	Loss: 5.435384                         LR: 0.0003  Feat: 0.968 Epoch Time: 4.082 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 10.0 | [7680/8002 (97%)]	Loss: 5.275551                         LR: 0.0003  Feat: 0.970 Epoch Time: 5.289 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 11.0 | [0/8002 (0%)]	Loss: 5.318648                         LR: 0.0003  Feat: 0.969 Epoch Time: 7.009 Model Time: 0.087 Data Time: 1.491 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 11.0 | [2560/8002 (32%)]	Loss: 5.357883                         LR: 0.0003  Feat: 0.975 Epoch Time: 8.246 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 11.0 | [5120/8002 (65%)]	Loss: 5.257548                         LR: 0.0001  Feat: 0.975 Epoch Time: 9.453 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 11.0 | [7680/8002 (97%)]	Loss: 5.343901                         LR: 0.0001  Feat: 0.974 Epoch Time: 10.660 Model Time: 0.057 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 12.0 | [0/8002 (0%)]	Loss: 5.215372                         LR: 0.0001  Feat: 0.975 Epoch Time: 12.415 Model Time: 0.094 Data Time: 1.513 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 12.0 | [2560/8002 (32%)]	Loss: 5.301598                         LR: 0.0001  Feat: 0.975 Epoch Time: 13.674 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 12.0 | [5120/8002 (65%)]	Loss: 5.246903                         LR: 0.0001  Feat: 0.973 Epoch Time: 14.880 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 12.0 | [7680/8002 (97%)]	Loss: 5.253913                         LR: 0.0000  Feat: 0.973 Epoch Time: 16.087 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 13.0 | [0/8002 (0%)]	Loss: 5.179765                         LR: 0.0000  Feat: 0.977 Epoch Time: 17.809 Model Time: 0.101 Data Time: 1.484 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 13.0 | [2560/8002 (32%)]	Loss: 5.258299                         LR: 0.0000  Feat: 0.973 Epoch Time: 19.074 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 13.0 | [5120/8002 (65%)]	Loss: 5.157036                         LR: 0.0000  Feat: 0.973 Epoch Time: 20.283 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 13.0 | [7680/8002 (97%)]	Loss: 5.277318                         LR: 0.0000  Feat: 0.974 Epoch Time: 21.490 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 14.0 | [0/8002 (0%)]	Loss: 5.188405                         LR: 0.0000  Feat: 0.974 Epoch Time: 23.174 Model Time: 0.109 Data Time: 1.455 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 14.0 | [2560/8002 (32%)]	Loss: 5.188168                         LR: 0.0000  Feat: 0.974 Epoch Time: 24.451 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 14.0 | [5120/8002 (65%)]	Loss: 5.169258                         LR: 0.0000  Feat: 0.972 Epoch Time: 25.659 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 2 | Local Epoch : 14.0 | [7680/8002 (97%)]	Loss: 5.183728                         LR: 0.0000  Feat: 0.972 Epoch Time: 26.865 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  1
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 10.0 | [0/11336 (0%)]	Loss: 5.453911                         LR: 0.0003  Feat: 0.931 Epoch Time: 1.665 Model Time: 0.099 Data Time: 1.509 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 10.0 | [2560/11336 (23%)]	Loss: 5.535073                         LR: 0.0003  Feat: 0.947 Epoch Time: 2.924 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 10.0 | [5120/11336 (45%)]	Loss: 5.444903                         LR: 0.0003  Feat: 0.955 Epoch Time: 4.131 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 10.0 | [7680/11336 (68%)]	Loss: 5.501230                         LR: 0.0003  Feat: 0.963 Epoch Time: 5.339 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 10.0 | [10240/11336 (91%)]	Loss: 5.392156                         LR: 0.0003  Feat: 0.969 Epoch Time: 6.546 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 11.0 | [0/11336 (0%)]	Loss: 5.347403                         LR: 0.0003  Feat: 0.972 Epoch Time: 8.558 Model Time: 0.089 Data Time: 1.423 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 11.0 | [2560/11336 (23%)]	Loss: 5.313157                         LR: 0.0001  Feat: 0.970 Epoch Time: 9.825 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 11.0 | [5120/11336 (45%)]	Loss: 5.288474                         LR: 0.0001  Feat: 0.972 Epoch Time: 11.033 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 11.0 | [7680/11336 (68%)]	Loss: 5.321078                         LR: 0.0001  Feat: 0.971 Epoch Time: 12.240 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 11.0 | [10240/11336 (91%)]	Loss: 5.246700                         LR: 0.0001  Feat: 0.975 Epoch Time: 13.447 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 12.0 | [0/11336 (0%)]	Loss: 5.261775                         LR: 0.0001  Feat: 0.972 Epoch Time: 15.558 Model Time: 0.111 Data Time: 1.485 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 12.0 | [2560/11336 (23%)]	Loss: 5.315564                         LR: 0.0000  Feat: 0.969 Epoch Time: 16.826 Model Time: 0.050 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 12.0 | [5120/11336 (45%)]	Loss: 5.267719                         LR: 0.0000  Feat: 0.969 Epoch Time: 18.033 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 12.0 | [7680/11336 (68%)]	Loss: 5.250334                         LR: 0.0000  Feat: 0.968 Epoch Time: 19.240 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 12.0 | [10240/11336 (91%)]	Loss: 5.309687                         LR: 0.0000  Feat: 0.966 Epoch Time: 20.447 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 13.0 | [0/11336 (0%)]	Loss: 5.326525                         LR: 0.0000  Feat: 0.968 Epoch Time: 22.558 Model Time: 0.097 Data Time: 1.507 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 13.0 | [2560/11336 (23%)]	Loss: 5.319612                         LR: 0.0000  Feat: 0.966 Epoch Time: 23.821 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 13.0 | [5120/11336 (45%)]	Loss: 5.236984                         LR: 0.0000  Feat: 0.969 Epoch Time: 25.023 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 13.0 | [7680/11336 (68%)]	Loss: 5.242957                         LR: 0.0000  Feat: 0.968 Epoch Time: 26.224 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 13.0 | [10240/11336 (91%)]	Loss: 5.367587                         LR: 0.0000  Feat: 0.969 Epoch Time: 27.428 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 14.0 | [0/11336 (0%)]	Loss: 5.266363                         LR: 0.0000  Feat: 0.968 Epoch Time: 29.458 Model Time: 0.095 Data Time: 1.440 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 14.0 | [2560/11336 (23%)]	Loss: 5.291507                         LR: 0.0000  Feat: 0.968 Epoch Time: 30.703 Model Time: 0.056 Data Time: 0.070 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 14.0 | [5120/11336 (45%)]	Loss: 5.342134                         LR: 0.0000  Feat: 0.966 Epoch Time: 31.909 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 14.0 | [7680/11336 (68%)]	Loss: 5.311514                         LR: 0.0000  Feat: 0.966 Epoch Time: 33.113 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 2 | Local Epoch : 14.0 | [10240/11336 (91%)]	Loss: 5.229573                         LR: 0.0000  Feat: 0.968 Epoch Time: 34.318 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Updating local model for agent:  2
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 10.0 | [0/4660 (0%)]	Loss: 5.518730                         LR: 0.0003  Feat: 0.938 Epoch Time: 1.595 Model Time: 0.079 Data Time: 1.471 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 10.0 | [2560/4660 (56%)]	Loss: 5.631536                         LR: 0.0003  Feat: 0.947 Epoch Time: 2.797 Model Time: 0.048 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 11.0 | [0/4660 (0%)]	Loss: 5.454756                         LR: 0.0003  Feat: 0.964 Epoch Time: 5.346 Model Time: 0.055 Data Time: 1.518 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 11.0 | [2560/4660 (56%)]	Loss: 5.471579                         LR: 0.0003  Feat: 0.970 Epoch Time: 6.547 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 12.0 | [0/4660 (0%)]	Loss: 5.468509                         LR: 0.0003  Feat: 0.974 Epoch Time: 9.031 Model Time: 0.061 Data Time: 1.462 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 12.0 | [2560/4660 (56%)]	Loss: 5.397116                         LR: 0.0001  Feat: 0.973 Epoch Time: 10.238 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 13.0 | [0/4660 (0%)]	Loss: 5.364295                         LR: 0.0001  Feat: 0.974 Epoch Time: 12.766 Model Time: 0.059 Data Time: 1.494 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 13.0 | [2560/4660 (56%)]	Loss: 5.366562                         LR: 0.0001  Feat: 0.978 Epoch Time: 13.972 Model Time: 0.050 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 14.0 | [0/4660 (0%)]	Loss: 5.343927                         LR: 0.0001  Feat: 0.972 Epoch Time: 16.432 Model Time: 0.103 Data Time: 1.378 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 2 | Local Epoch : 14.0 | [2560/4660 (56%)]	Loss: 5.350980                         LR: 0.0001  Feat: 0.975 Epoch Time: 17.638 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  3
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 10.0 | [0/7999 (0%)]	Loss: 5.437635                         LR: 0.0003  Feat: 0.932 Epoch Time: 1.585 Model Time: 0.113 Data Time: 1.403 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 10.0 | [2560/7999 (32%)]	Loss: 5.510437                         LR: 0.0003  Feat: 0.958 Epoch Time: 2.828 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 10.0 | [5120/7999 (65%)]	Loss: 5.428062                         LR: 0.0003  Feat: 0.967 Epoch Time: 4.035 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 10.0 | [7680/7999 (97%)]	Loss: 5.268541                         LR: 0.0003  Feat: 0.967 Epoch Time: 5.242 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 11.0 | [0/7999 (0%)]	Loss: 5.305941                         LR: 0.0003  Feat: 0.966 Epoch Time: 6.908 Model Time: 0.110 Data Time: 1.474 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 11.0 | [2560/7999 (32%)]	Loss: 5.267880                         LR: 0.0003  Feat: 0.975 Epoch Time: 8.169 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 11.0 | [5120/7999 (65%)]	Loss: 5.218615                         LR: 0.0001  Feat: 0.974 Epoch Time: 9.375 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 11.0 | [7680/7999 (97%)]	Loss: 5.202238                         LR: 0.0001  Feat: 0.975 Epoch Time: 10.581 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 12.0 | [0/7999 (0%)]	Loss: 5.214406                         LR: 0.0001  Feat: 0.974 Epoch Time: 12.218 Model Time: 0.099 Data Time: 1.443 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 12.0 | [2560/7999 (32%)]	Loss: 5.247645                         LR: 0.0001  Feat: 0.972 Epoch Time: 13.489 Model Time: 0.056 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 12.0 | [5120/7999 (65%)]	Loss: 5.201323                         LR: 0.0001  Feat: 0.972 Epoch Time: 14.694 Model Time: 0.056 Data Time: 0.067 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 12.0 | [7680/7999 (97%)]	Loss: 5.193744                         LR: 0.0000  Feat: 0.971 Epoch Time: 15.898 Model Time: 0.055 Data Time: 0.069 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 13.0 | [0/7999 (0%)]	Loss: 5.067706                         LR: 0.0000  Feat: 0.969 Epoch Time: 17.685 Model Time: 0.097 Data Time: 1.529 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 13.0 | [2560/7999 (32%)]	Loss: 5.150793                         LR: 0.0000  Feat: 0.972 Epoch Time: 18.948 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 13.0 | [5120/7999 (65%)]	Loss: 5.185514                         LR: 0.0000  Feat: 0.971 Epoch Time: 20.153 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 13.0 | [7680/7999 (97%)]	Loss: 5.215086                         LR: 0.0000  Feat: 0.968 Epoch Time: 21.358 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 14.0 | [0/7999 (0%)]	Loss: 5.169993                         LR: 0.0000  Feat: 0.966 Epoch Time: 23.033 Model Time: 0.105 Data Time: 1.463 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 14.0 | [2560/7999 (32%)]	Loss: 5.138433                         LR: 0.0000  Feat: 0.969 Epoch Time: 24.307 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 14.0 | [5120/7999 (65%)]	Loss: 5.105523                         LR: 0.0000  Feat: 0.968 Epoch Time: 25.513 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 2 | Local Epoch : 14.0 | [7680/7999 (97%)]	Loss: 5.149333                         LR: 0.0000  Feat: 0.966 Epoch Time: 26.718 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Updating local model for agent:  4
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 10.0 | [0/8001 (0%)]	Loss: 5.543876                         LR: 0.0003  Feat: 0.930 Epoch Time: 1.652 Model Time: 0.107 Data Time: 1.468 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 10.0 | [2560/8001 (32%)]	Loss: 5.408622                         LR: 0.0003  Feat: 0.953 Epoch Time: 2.912 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 10.0 | [5120/8001 (65%)]	Loss: 5.399451                         LR: 0.0003  Feat: 0.965 Epoch Time: 4.116 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 10.0 | [7680/8001 (97%)]	Loss: 5.448335                         LR: 0.0003  Feat: 0.963 Epoch Time: 5.321 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 11.0 | [0/8001 (0%)]	Loss: 5.419592                         LR: 0.0003  Feat: 0.962 Epoch Time: 6.883 Model Time: 0.103 Data Time: 1.366 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 11.0 | [2560/8001 (32%)]	Loss: 5.361306                         LR: 0.0003  Feat: 0.959 Epoch Time: 8.155 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 11.0 | [5120/8001 (65%)]	Loss: 5.372171                         LR: 0.0001  Feat: 0.968 Epoch Time: 9.361 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 11.0 | [7680/8001 (97%)]	Loss: 5.482038                         LR: 0.0001  Feat: 0.964 Epoch Time: 10.568 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 12.0 | [0/8001 (0%)]	Loss: 5.293631                         LR: 0.0001  Feat: 0.968 Epoch Time: 12.352 Model Time: 0.087 Data Time: 1.545 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 12.0 | [2560/8001 (32%)]	Loss: 5.273730                         LR: 0.0001  Feat: 0.963 Epoch Time: 13.566 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 12.0 | [5120/8001 (65%)]	Loss: 5.376100                         LR: 0.0001  Feat: 0.958 Epoch Time: 14.772 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 12.0 | [7680/8001 (97%)]	Loss: 5.312898                         LR: 0.0000  Feat: 0.961 Epoch Time: 15.978 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 13.0 | [0/8001 (0%)]	Loss: 5.285106                         LR: 0.0000  Feat: 0.959 Epoch Time: 17.652 Model Time: 0.100 Data Time: 1.427 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 13.0 | [2560/8001 (32%)]	Loss: 5.240417                         LR: 0.0000  Feat: 0.962 Epoch Time: 18.893 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 13.0 | [5120/8001 (65%)]	Loss: 5.280973                         LR: 0.0000  Feat: 0.962 Epoch Time: 20.099 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 13.0 | [7680/8001 (97%)]	Loss: 5.256247                         LR: 0.0000  Feat: 0.962 Epoch Time: 21.304 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 14.0 | [0/8001 (0%)]	Loss: 5.284963                         LR: 0.0000  Feat: 0.963 Epoch Time: 22.952 Model Time: 0.091 Data Time: 1.411 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 14.0 | [2560/8001 (32%)]	Loss: 5.235141                         LR: 0.0000  Feat: 0.965 Epoch Time: 24.208 Model Time: 0.048 Data Time: 0.073 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 14.0 | [5120/8001 (65%)]	Loss: 5.273336                         LR: 0.0000  Feat: 0.961 Epoch Time: 25.409 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 2 | Local Epoch : 14.0 | [7680/8001 (97%)]	Loss: 5.276537                         LR: 0.0000  Feat: 0.963 Epoch Time: 26.614 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Regular Decentralized averaging 
+dividing sum by:  4
+regular avg, epoch 2 new weights for agent 0 and key f.6.0.bn2.weight are : tensor([1.0024, 0.9955, 0.9997, 0.9964, 0.9950], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 2 new weights for agent 1 and key f.6.0.bn2.weight are : tensor([1.0021, 0.9956, 0.9999, 0.9961, 0.9952], device='cuda:0')
+dividing sum by:  4
+regular avg, epoch 2 new weights for agent 2 and key f.6.0.bn2.weight are : tensor([1.0022, 0.9957, 0.9995, 0.9964, 0.9955], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 2 new weights for agent 3 and key f.6.0.bn2.weight are : tensor([1.0021, 0.9956, 0.9999, 0.9961, 0.9952], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 2 new weights for agent 4 and key f.6.0.bn2.weight are : tensor([1.0021, 0.9956, 0.9999, 0.9961, 0.9952], device='cuda:0')
+
+ | Global Training Round : 4 | Model : 06-03_03:03_70547
+
+Updating local model for agent:  0
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 15.0 | [0/8002 (0%)]	Loss: 5.259000                         LR: 0.0001  Feat: 0.970 Epoch Time: 1.665 Model Time: 0.096 Data Time: 1.497 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 15.0 | [2560/8002 (32%)]	Loss: 5.260980                         LR: 0.0001  Feat: 0.969 Epoch Time: 2.882 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 15.0 | [5120/8002 (65%)]	Loss: 5.256058                         LR: 0.0001  Feat: 0.968 Epoch Time: 4.078 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 15.0 | [7680/8002 (97%)]	Loss: 5.217358                         LR: 0.0001  Feat: 0.966 Epoch Time: 5.274 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 16.0 | [0/8002 (0%)]	Loss: 5.196060                         LR: 0.0001  Feat: 0.967 Epoch Time: 6.965 Model Time: 0.088 Data Time: 1.437 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 16.0 | [2560/8002 (32%)]	Loss: 5.167608                         LR: 0.0001  Feat: 0.966 Epoch Time: 8.220 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 16.0 | [5120/8002 (65%)]	Loss: 5.197934                         LR: 0.0000  Feat: 0.966 Epoch Time: 9.424 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 16.0 | [7680/8002 (97%)]	Loss: 5.193135                         LR: 0.0000  Feat: 0.965 Epoch Time: 10.630 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 17.0 | [0/8002 (0%)]	Loss: 5.132544                         LR: 0.0000  Feat: 0.965 Epoch Time: 12.365 Model Time: 0.083 Data Time: 1.505 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 17.0 | [2560/8002 (32%)]	Loss: 5.192194                         LR: 0.0000  Feat: 0.966 Epoch Time: 13.622 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 17.0 | [5120/8002 (65%)]	Loss: 5.164442                         LR: 0.0000  Feat: 0.965 Epoch Time: 14.826 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 17.0 | [7680/8002 (97%)]	Loss: 5.106889                         LR: 0.0000  Feat: 0.965 Epoch Time: 16.031 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 18.0 | [0/8002 (0%)]	Loss: 5.162256                         LR: 0.0000  Feat: 0.968 Epoch Time: 17.665 Model Time: 0.090 Data Time: 1.413 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 18.0 | [2560/8002 (32%)]	Loss: 5.164062                         LR: 0.0000  Feat: 0.965 Epoch Time: 18.902 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 18.0 | [5120/8002 (65%)]	Loss: 5.233998                         LR: 0.0000  Feat: 0.965 Epoch Time: 20.108 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 18.0 | [7680/8002 (97%)]	Loss: 5.101898                         LR: 0.0000  Feat: 0.965 Epoch Time: 21.314 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 19.0 | [0/8002 (0%)]	Loss: 5.184913                         LR: 0.0000  Feat: 0.964 Epoch Time: 22.965 Model Time: 0.086 Data Time: 1.426 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 19.0 | [2560/8002 (32%)]	Loss: 5.150102                         LR: 0.0000  Feat: 0.965 Epoch Time: 24.230 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 19.0 | [5120/8002 (65%)]	Loss: 5.078980                         LR: 0.0000  Feat: 0.966 Epoch Time: 25.436 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 3 | Local Epoch : 19.0 | [7680/8002 (97%)]	Loss: 5.133444                         LR: 0.0000  Feat: 0.964 Epoch Time: 26.643 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  1
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 15.0 | [0/11336 (0%)]	Loss: 5.434775                         LR: 0.0001  Feat: 0.962 Epoch Time: 1.631 Model Time: 0.089 Data Time: 1.469 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 15.0 | [2560/11336 (23%)]	Loss: 5.409232                         LR: 0.0001  Feat: 0.960 Epoch Time: 2.900 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 15.0 | [5120/11336 (45%)]	Loss: 5.297899                         LR: 0.0001  Feat: 0.959 Epoch Time: 4.107 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 15.0 | [7680/11336 (68%)]	Loss: 5.351998                         LR: 0.0001  Feat: 0.960 Epoch Time: 5.314 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 15.0 | [10240/11336 (91%)]	Loss: 5.285458                         LR: 0.0001  Feat: 0.962 Epoch Time: 6.521 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 16.0 | [0/11336 (0%)]	Loss: 5.382419                         LR: 0.0001  Feat: 0.963 Epoch Time: 8.532 Model Time: 0.091 Data Time: 1.411 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 16.0 | [2560/11336 (23%)]	Loss: 5.370434                         LR: 0.0000  Feat: 0.962 Epoch Time: 9.796 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 16.0 | [5120/11336 (45%)]	Loss: 5.364261                         LR: 0.0000  Feat: 0.963 Epoch Time: 11.002 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 16.0 | [7680/11336 (68%)]	Loss: 5.297585                         LR: 0.0000  Feat: 0.959 Epoch Time: 12.207 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 16.0 | [10240/11336 (91%)]	Loss: 5.174263                         LR: 0.0000  Feat: 0.960 Epoch Time: 13.412 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 17.0 | [0/11336 (0%)]	Loss: 5.178744                         LR: 0.0000  Feat: 0.960 Epoch Time: 15.531 Model Time: 0.104 Data Time: 1.496 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 17.0 | [2560/11336 (23%)]	Loss: 5.218572                         LR: 0.0000  Feat: 0.960 Epoch Time: 16.796 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 17.0 | [5120/11336 (45%)]	Loss: 5.246997                         LR: 0.0000  Feat: 0.958 Epoch Time: 18.002 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 17.0 | [7680/11336 (68%)]	Loss: 5.208032                         LR: 0.0000  Feat: 0.959 Epoch Time: 19.208 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 17.0 | [10240/11336 (91%)]	Loss: 5.295156                         LR: 0.0000  Feat: 0.961 Epoch Time: 20.414 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 18.0 | [0/11336 (0%)]	Loss: 5.186411                         LR: 0.0000  Feat: 0.958 Epoch Time: 22.531 Model Time: 0.092 Data Time: 1.522 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 18.0 | [2560/11336 (23%)]	Loss: 5.246758                         LR: 0.0000  Feat: 0.960 Epoch Time: 23.800 Model Time: 0.054 Data Time: 0.067 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 18.0 | [5120/11336 (45%)]	Loss: 5.274252                         LR: 0.0000  Feat: 0.961 Epoch Time: 25.008 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 18.0 | [7680/11336 (68%)]	Loss: 5.236489                         LR: 0.0000  Feat: 0.959 Epoch Time: 26.215 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 18.0 | [10240/11336 (91%)]	Loss: 5.272548                         LR: 0.0000  Feat: 0.959 Epoch Time: 27.422 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 19.0 | [0/11336 (0%)]	Loss: 5.249123                         LR: 0.0000  Feat: 0.959 Epoch Time: 29.487 Model Time: 0.109 Data Time: 1.486 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 19.0 | [2560/11336 (23%)]	Loss: 5.248472                         LR: 0.0000  Feat: 0.960 Epoch Time: 30.775 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 19.0 | [5120/11336 (45%)]	Loss: 5.184456                         LR: 0.0000  Feat: 0.959 Epoch Time: 31.985 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 19.0 | [7680/11336 (68%)]	Loss: 5.238520                         LR: 0.0000  Feat: 0.961 Epoch Time: 33.192 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 3 | Local Epoch : 19.0 | [10240/11336 (91%)]	Loss: 5.238704                         LR: 0.0000  Feat: 0.956 Epoch Time: 34.400 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  2
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 15.0 | [0/4660 (0%)]	Loss: 5.363461                         LR: 0.0001  Feat: 0.962 Epoch Time: 1.587 Model Time: 0.083 Data Time: 1.443 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 15.0 | [2560/4660 (56%)]	Loss: 5.405313                         LR: 0.0001  Feat: 0.963 Epoch Time: 2.788 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 16.0 | [0/4660 (0%)]	Loss: 5.342658                         LR: 0.0001  Feat: 0.962 Epoch Time: 5.271 Model Time: 0.051 Data Time: 1.421 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 16.0 | [2560/4660 (56%)]	Loss: 5.430341                         LR: 0.0001  Feat: 0.959 Epoch Time: 6.474 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 17.0 | [0/4660 (0%)]	Loss: 5.365311                         LR: 0.0001  Feat: 0.962 Epoch Time: 8.960 Model Time: 0.055 Data Time: 1.458 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 17.0 | [2560/4660 (56%)]	Loss: 5.277344                         LR: 0.0000  Feat: 0.962 Epoch Time: 10.166 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 18.0 | [0/4660 (0%)]	Loss: 5.269436                         LR: 0.0000  Feat: 0.960 Epoch Time: 12.572 Model Time: 0.085 Data Time: 1.355 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 18.0 | [2560/4660 (56%)]	Loss: 5.234546                         LR: 0.0000  Feat: 0.962 Epoch Time: 13.778 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 19.0 | [0/4660 (0%)]	Loss: 5.259529                         LR: 0.0000  Feat: 0.962 Epoch Time: 16.080 Model Time: 0.086 Data Time: 1.233 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 3 | Local Epoch : 19.0 | [2560/4660 (56%)]	Loss: 5.347746                         LR: 0.0000  Feat: 0.962 Epoch Time: 17.332 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  3
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 15.0 | [0/7999 (0%)]	Loss: 5.345146                         LR: 0.0001  Feat: 0.971 Epoch Time: 1.616 Model Time: 0.081 Data Time: 1.459 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 15.0 | [2560/7999 (32%)]	Loss: 5.246674                         LR: 0.0001  Feat: 0.970 Epoch Time: 2.878 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 15.0 | [5120/7999 (65%)]	Loss: 5.327863                         LR: 0.0001  Feat: 0.966 Epoch Time: 4.087 Model Time: 0.051 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 15.0 | [7680/7999 (97%)]	Loss: 5.201748                         LR: 0.0001  Feat: 0.967 Epoch Time: 5.292 Model Time: 0.055 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 16.0 | [0/7999 (0%)]	Loss: 5.153166                         LR: 0.0001  Feat: 0.966 Epoch Time: 7.016 Model Time: 0.107 Data Time: 1.466 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 16.0 | [2560/7999 (32%)]	Loss: 5.255116                         LR: 0.0001  Feat: 0.966 Epoch Time: 8.280 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 16.0 | [5120/7999 (65%)]	Loss: 5.208976                         LR: 0.0000  Feat: 0.967 Epoch Time: 9.485 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 16.0 | [7680/7999 (97%)]	Loss: 5.204360                         LR: 0.0000  Feat: 0.965 Epoch Time: 10.691 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 17.0 | [0/7999 (0%)]	Loss: 5.204097                         LR: 0.0000  Feat: 0.965 Epoch Time: 12.516 Model Time: 0.100 Data Time: 1.570 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 17.0 | [2560/7999 (32%)]	Loss: 5.160118                         LR: 0.0000  Feat: 0.963 Epoch Time: 13.740 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 17.0 | [5120/7999 (65%)]	Loss: 5.130342                         LR: 0.0000  Feat: 0.961 Epoch Time: 14.945 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 17.0 | [7680/7999 (97%)]	Loss: 5.131318                         LR: 0.0000  Feat: 0.963 Epoch Time: 16.151 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 18.0 | [0/7999 (0%)]	Loss: 5.135793                         LR: 0.0000  Feat: 0.964 Epoch Time: 17.616 Model Time: 0.083 Data Time: 1.242 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 18.0 | [2560/7999 (32%)]	Loss: 5.218001                         LR: 0.0000  Feat: 0.963 Epoch Time: 18.957 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 18.0 | [5120/7999 (65%)]	Loss: 5.166524                         LR: 0.0000  Feat: 0.962 Epoch Time: 20.164 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 18.0 | [7680/7999 (97%)]	Loss: 5.044810                         LR: 0.0000  Feat: 0.964 Epoch Time: 21.371 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 19.0 | [0/7999 (0%)]	Loss: 5.143864                         LR: 0.0000  Feat: 0.962 Epoch Time: 23.117 Model Time: 0.078 Data Time: 1.522 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 19.0 | [2560/7999 (32%)]	Loss: 5.145470                         LR: 0.0000  Feat: 0.963 Epoch Time: 24.344 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 19.0 | [5120/7999 (65%)]	Loss: 5.088379                         LR: 0.0000  Feat: 0.961 Epoch Time: 25.550 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 3 | Local Epoch : 19.0 | [7680/7999 (97%)]	Loss: 5.124135                         LR: 0.0000  Feat: 0.961 Epoch Time: 26.756 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  4
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 15.0 | [0/8001 (0%)]	Loss: 5.414667                         LR: 0.0001  Feat: 0.964 Epoch Time: 1.570 Model Time: 0.094 Data Time: 1.409 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 15.0 | [2560/8001 (32%)]	Loss: 5.266678                         LR: 0.0001  Feat: 0.967 Epoch Time: 2.831 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 15.0 | [5120/8001 (65%)]	Loss: 5.277521                         LR: 0.0001  Feat: 0.963 Epoch Time: 4.036 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 15.0 | [7680/8001 (97%)]	Loss: 5.270232                         LR: 0.0001  Feat: 0.964 Epoch Time: 5.241 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 16.0 | [0/8001 (0%)]	Loss: 5.297506                         LR: 0.0001  Feat: 0.963 Epoch Time: 6.998 Model Time: 0.096 Data Time: 1.564 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 16.0 | [2560/8001 (32%)]	Loss: 5.231912                         LR: 0.0001  Feat: 0.961 Epoch Time: 8.273 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 16.0 | [5120/8001 (65%)]	Loss: 5.316721                         LR: 0.0000  Feat: 0.960 Epoch Time: 9.478 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 16.0 | [7680/8001 (97%)]	Loss: 5.274716                         LR: 0.0000  Feat: 0.961 Epoch Time: 10.683 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 17.0 | [0/8001 (0%)]	Loss: 5.155539                         LR: 0.0000  Feat: 0.960 Epoch Time: 12.370 Model Time: 0.094 Data Time: 1.452 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 17.0 | [2560/8001 (32%)]	Loss: 5.253563                         LR: 0.0000  Feat: 0.961 Epoch Time: 13.631 Model Time: 0.055 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 17.0 | [5120/8001 (65%)]	Loss: 5.247983                         LR: 0.0000  Feat: 0.962 Epoch Time: 14.833 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 17.0 | [7680/8001 (97%)]	Loss: 5.278559                         LR: 0.0000  Feat: 0.962 Epoch Time: 16.041 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 18.0 | [0/8001 (0%)]	Loss: 5.206235                         LR: 0.0000  Feat: 0.961 Epoch Time: 17.770 Model Time: 0.087 Data Time: 1.504 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 18.0 | [2560/8001 (32%)]	Loss: 5.192698                         LR: 0.0000  Feat: 0.961 Epoch Time: 18.994 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 18.0 | [5120/8001 (65%)]	Loss: 5.223046                         LR: 0.0000  Feat: 0.960 Epoch Time: 20.191 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 18.0 | [7680/8001 (97%)]	Loss: 5.200142                         LR: 0.0000  Feat: 0.961 Epoch Time: 21.386 Model Time: 0.047 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 19.0 | [0/8001 (0%)]	Loss: 5.200624                         LR: 0.0000  Feat: 0.960 Epoch Time: 23.170 Model Time: 0.100 Data Time: 1.531 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 19.0 | [2560/8001 (32%)]	Loss: 5.200330                         LR: 0.0000  Feat: 0.961 Epoch Time: 24.370 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 19.0 | [5120/8001 (65%)]	Loss: 5.221423                         LR: 0.0000  Feat: 0.960 Epoch Time: 25.574 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 3 | Local Epoch : 19.0 | [7680/8001 (97%)]	Loss: 5.266566                         LR: 0.0000  Feat: 0.960 Epoch Time: 26.777 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Regular Decentralized averaging 
+dividing sum by:  4
+regular avg, epoch 3 new weights for agent 0 and key f.6.0.bn2.weight are : tensor([1.0023, 0.9965, 0.9998, 0.9962, 0.9946], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 3 new weights for agent 1 and key f.6.0.bn2.weight are : tensor([1.0024, 0.9965, 0.9999, 0.9962, 0.9948], device='cuda:0')
+dividing sum by:  4
+regular avg, epoch 3 new weights for agent 2 and key f.6.0.bn2.weight are : tensor([1.0023, 0.9966, 1.0000, 0.9961, 0.9949], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 3 new weights for agent 3 and key f.6.0.bn2.weight are : tensor([1.0024, 0.9965, 0.9999, 0.9962, 0.9948], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 3 new weights for agent 4 and key f.6.0.bn2.weight are : tensor([1.0024, 0.9965, 0.9999, 0.9962, 0.9948], device='cuda:0')
+
+ | Global Training Round : 5 | Model : 06-03_03:03_70547
+
+Updating local model for agent:  0
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 20.0 | [0/8002 (0%)]	Loss: 5.206211                         LR: 0.0001  Feat: 0.965 Epoch Time: 1.604 Model Time: 0.087 Data Time: 1.483 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 20.0 | [2560/8002 (32%)]	Loss: 5.208282                         LR: 0.0001  Feat: 0.970 Epoch Time: 2.896 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 20.0 | [5120/8002 (65%)]	Loss: 5.181585                         LR: 0.0001  Feat: 0.966 Epoch Time: 4.100 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 20.0 | [7680/8002 (97%)]	Loss: 5.199391                         LR: 0.0001  Feat: 0.962 Epoch Time: 5.305 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 21.0 | [0/8002 (0%)]	Loss: 5.185956                         LR: 0.0001  Feat: 0.967 Epoch Time: 6.998 Model Time: 0.057 Data Time: 1.501 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 21.0 | [2560/8002 (32%)]	Loss: 5.245086                         LR: 0.0001  Feat: 0.964 Epoch Time: 8.253 Model Time: 0.053 Data Time: 0.069 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 21.0 | [5120/8002 (65%)]	Loss: 5.178505                         LR: 0.0000  Feat: 0.968 Epoch Time: 9.459 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 21.0 | [7680/8002 (97%)]	Loss: 5.114348                         LR: 0.0000  Feat: 0.965 Epoch Time: 10.663 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 22.0 | [0/8002 (0%)]	Loss: 5.086525                         LR: 0.0000  Feat: 0.968 Epoch Time: 12.402 Model Time: 0.096 Data Time: 1.550 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 22.0 | [2560/8002 (32%)]	Loss: 5.144070                         LR: 0.0000  Feat: 0.967 Epoch Time: 13.652 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 22.0 | [5120/8002 (65%)]	Loss: 5.121169                         LR: 0.0000  Feat: 0.966 Epoch Time: 14.857 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 22.0 | [7680/8002 (97%)]	Loss: 5.168195                         LR: 0.0000  Feat: 0.962 Epoch Time: 16.062 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 23.0 | [0/8002 (0%)]	Loss: 5.083982                         LR: 0.0000  Feat: 0.965 Epoch Time: 17.774 Model Time: 0.099 Data Time: 1.464 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 23.0 | [2560/8002 (32%)]	Loss: 5.093865                         LR: 0.0000  Feat: 0.963 Epoch Time: 19.030 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 23.0 | [5120/8002 (65%)]	Loss: 5.148621                         LR: 0.0000  Feat: 0.965 Epoch Time: 20.235 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 23.0 | [7680/8002 (97%)]	Loss: 5.086977                         LR: 0.0000  Feat: 0.967 Epoch Time: 21.441 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 24.0 | [0/8002 (0%)]	Loss: 5.099822                         LR: 0.0000  Feat: 0.964 Epoch Time: 23.270 Model Time: 0.100 Data Time: 1.577 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 24.0 | [2560/8002 (32%)]	Loss: 5.054864                         LR: 0.0000  Feat: 0.967 Epoch Time: 24.509 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 24.0 | [5120/8002 (65%)]	Loss: 5.102864                         LR: 0.0000  Feat: 0.966 Epoch Time: 25.714 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 4 | Local Epoch : 24.0 | [7680/8002 (97%)]	Loss: 5.122665                         LR: 0.0000  Feat: 0.964 Epoch Time: 26.920 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  1
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 20.0 | [0/11336 (0%)]	Loss: 5.304377                         LR: 0.0001  Feat: 0.962 Epoch Time: 1.570 Model Time: 0.146 Data Time: 1.409 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 20.0 | [2560/11336 (23%)]	Loss: 5.244889                         LR: 0.0001  Feat: 0.961 Epoch Time: 2.896 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 20.0 | [5120/11336 (45%)]	Loss: 5.257656                         LR: 0.0001  Feat: 0.962 Epoch Time: 4.104 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 20.0 | [7680/11336 (68%)]	Loss: 5.309802                         LR: 0.0001  Feat: 0.957 Epoch Time: 5.310 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 20.0 | [10240/11336 (91%)]	Loss: 5.243954                         LR: 0.0001  Feat: 0.959 Epoch Time: 6.516 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 21.0 | [0/11336 (0%)]	Loss: 5.226699                         LR: 0.0001  Feat: 0.961 Epoch Time: 8.567 Model Time: 0.097 Data Time: 1.463 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 21.0 | [2560/11336 (23%)]	Loss: 5.194172                         LR: 0.0000  Feat: 0.957 Epoch Time: 9.876 Model Time: 0.048 Data Time: 0.070 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 21.0 | [5120/11336 (45%)]	Loss: 5.208310                         LR: 0.0000  Feat: 0.954 Epoch Time: 11.075 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 21.0 | [7680/11336 (68%)]	Loss: 5.241199                         LR: 0.0000  Feat: 0.956 Epoch Time: 12.275 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 21.0 | [10240/11336 (91%)]	Loss: 5.201477                         LR: 0.0000  Feat: 0.957 Epoch Time: 13.480 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 22.0 | [0/11336 (0%)]	Loss: 5.166886                         LR: 0.0000  Feat: 0.958 Epoch Time: 15.555 Model Time: 0.094 Data Time: 1.465 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 22.0 | [2560/11336 (23%)]	Loss: 5.210773                         LR: 0.0000  Feat: 0.955 Epoch Time: 16.820 Model Time: 0.054 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 22.0 | [5120/11336 (45%)]	Loss: 5.152515                         LR: 0.0000  Feat: 0.957 Epoch Time: 18.025 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 22.0 | [7680/11336 (68%)]	Loss: 5.184112                         LR: 0.0000  Feat: 0.957 Epoch Time: 19.231 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 22.0 | [10240/11336 (91%)]	Loss: 5.213778                         LR: 0.0000  Feat: 0.955 Epoch Time: 20.437 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 23.0 | [0/11336 (0%)]	Loss: 5.250368                         LR: 0.0000  Feat: 0.956 Epoch Time: 22.655 Model Time: 0.098 Data Time: 1.612 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 23.0 | [2560/11336 (23%)]	Loss: 5.214748                         LR: 0.0000  Feat: 0.957 Epoch Time: 23.888 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 23.0 | [5120/11336 (45%)]	Loss: 5.119584                         LR: 0.0000  Feat: 0.957 Epoch Time: 25.096 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 23.0 | [7680/11336 (68%)]	Loss: 5.223514                         LR: 0.0000  Feat: 0.955 Epoch Time: 26.306 Model Time: 0.057 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 23.0 | [10240/11336 (91%)]	Loss: 5.211746                         LR: 0.0000  Feat: 0.956 Epoch Time: 27.513 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 24.0 | [0/11336 (0%)]	Loss: 5.164320                         LR: 0.0000  Feat: 0.956 Epoch Time: 29.769 Model Time: 0.100 Data Time: 1.660 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 24.0 | [2560/11336 (23%)]	Loss: 5.126031                         LR: 0.0000  Feat: 0.954 Epoch Time: 31.041 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 24.0 | [5120/11336 (45%)]	Loss: 5.160003                         LR: 0.0000  Feat: 0.956 Epoch Time: 32.249 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 24.0 | [7680/11336 (68%)]	Loss: 5.188711                         LR: 0.0000  Feat: 0.955 Epoch Time: 33.457 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 4 | Local Epoch : 24.0 | [10240/11336 (91%)]	Loss: 5.173952                         LR: 0.0000  Feat: 0.956 Epoch Time: 34.666 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  2
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 20.0 | [0/4660 (0%)]	Loss: 5.376822                         LR: 0.0001  Feat: 0.961 Epoch Time: 1.620 Model Time: 0.065 Data Time: 1.498 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 20.0 | [2560/4660 (56%)]	Loss: 5.302158                         LR: 0.0001  Feat: 0.959 Epoch Time: 2.826 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 21.0 | [0/4660 (0%)]	Loss: 5.292600                         LR: 0.0001  Feat: 0.960 Epoch Time: 5.296 Model Time: 0.058 Data Time: 1.430 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 21.0 | [2560/4660 (56%)]	Loss: 5.374540                         LR: 0.0001  Feat: 0.959 Epoch Time: 6.502 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 22.0 | [0/4660 (0%)]	Loss: 5.302629                         LR: 0.0001  Feat: 0.959 Epoch Time: 8.917 Model Time: 0.100 Data Time: 1.344 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 22.0 | [2560/4660 (56%)]	Loss: 5.270185                         LR: 0.0000  Feat: 0.958 Epoch Time: 10.123 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 23.0 | [0/4660 (0%)]	Loss: 5.260015                         LR: 0.0000  Feat: 0.959 Epoch Time: 12.583 Model Time: 0.061 Data Time: 1.426 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 23.0 | [2560/4660 (56%)]	Loss: 5.225161                         LR: 0.0000  Feat: 0.959 Epoch Time: 13.788 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 24.0 | [0/4660 (0%)]	Loss: 5.264591                         LR: 0.0000  Feat: 0.958 Epoch Time: 16.295 Model Time: 0.051 Data Time: 1.476 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 4 | Local Epoch : 24.0 | [2560/4660 (56%)]	Loss: 5.271367                         LR: 0.0000  Feat: 0.957 Epoch Time: 17.498 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  3
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 20.0 | [0/7999 (0%)]	Loss: 5.212728                         LR: 0.0001  Feat: 0.965 Epoch Time: 1.584 Model Time: 0.093 Data Time: 1.410 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 20.0 | [2560/7999 (32%)]	Loss: 5.190993                         LR: 0.0001  Feat: 0.962 Epoch Time: 2.843 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 20.0 | [5120/7999 (65%)]	Loss: 5.176568                         LR: 0.0001  Feat: 0.962 Epoch Time: 4.042 Model Time: 0.050 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 20.0 | [7680/7999 (97%)]	Loss: 5.140815                         LR: 0.0001  Feat: 0.957 Epoch Time: 5.241 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 21.0 | [0/7999 (0%)]	Loss: 5.175467                         LR: 0.0001  Feat: 0.959 Epoch Time: 6.885 Model Time: 0.098 Data Time: 1.425 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 21.0 | [2560/7999 (32%)]	Loss: 5.126519                         LR: 0.0001  Feat: 0.961 Epoch Time: 8.147 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 21.0 | [5120/7999 (65%)]	Loss: 5.109478                         LR: 0.0000  Feat: 0.960 Epoch Time: 9.352 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 21.0 | [7680/7999 (97%)]	Loss: 5.107193                         LR: 0.0000  Feat: 0.958 Epoch Time: 10.557 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 22.0 | [0/7999 (0%)]	Loss: 5.068872                         LR: 0.0000  Feat: 0.958 Epoch Time: 12.284 Model Time: 0.074 Data Time: 1.513 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 22.0 | [2560/7999 (32%)]	Loss: 5.102962                         LR: 0.0000  Feat: 0.956 Epoch Time: 13.546 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 22.0 | [5120/7999 (65%)]	Loss: 5.168685                         LR: 0.0000  Feat: 0.956 Epoch Time: 14.751 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 22.0 | [7680/7999 (97%)]	Loss: 5.162685                         LR: 0.0000  Feat: 0.956 Epoch Time: 15.957 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 23.0 | [0/7999 (0%)]	Loss: 5.117250                         LR: 0.0000  Feat: 0.956 Epoch Time: 17.703 Model Time: 0.101 Data Time: 1.521 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 23.0 | [2560/7999 (32%)]	Loss: 5.069529                         LR: 0.0000  Feat: 0.953 Epoch Time: 18.969 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 23.0 | [5120/7999 (65%)]	Loss: 5.111551                         LR: 0.0000  Feat: 0.955 Epoch Time: 20.175 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 23.0 | [7680/7999 (97%)]	Loss: 5.129035                         LR: 0.0000  Feat: 0.954 Epoch Time: 21.382 Model Time: 0.057 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 24.0 | [0/7999 (0%)]	Loss: 5.089373                         LR: 0.0000  Feat: 0.956 Epoch Time: 23.006 Model Time: 0.057 Data Time: 1.432 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 24.0 | [2560/7999 (32%)]	Loss: 5.115999                         LR: 0.0000  Feat: 0.954 Epoch Time: 24.346 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 24.0 | [5120/7999 (65%)]	Loss: 5.109795                         LR: 0.0000  Feat: 0.954 Epoch Time: 25.551 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 4 | Local Epoch : 24.0 | [7680/7999 (97%)]	Loss: 5.114473                         LR: 0.0000  Feat: 0.955 Epoch Time: 26.757 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  4
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 20.0 | [0/8001 (0%)]	Loss: 5.313929                         LR: 0.0001  Feat: 0.961 Epoch Time: 1.631 Model Time: 0.104 Data Time: 1.452 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 20.0 | [2560/8001 (32%)]	Loss: 5.230031                         LR: 0.0001  Feat: 0.960 Epoch Time: 2.895 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 20.0 | [5120/8001 (65%)]	Loss: 5.274221                         LR: 0.0001  Feat: 0.960 Epoch Time: 4.100 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 20.0 | [7680/8001 (97%)]	Loss: 5.234958                         LR: 0.0001  Feat: 0.961 Epoch Time: 5.306 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 21.0 | [0/8001 (0%)]	Loss: 5.169615                         LR: 0.0001  Feat: 0.960 Epoch Time: 7.033 Model Time: 0.087 Data Time: 1.501 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 21.0 | [2560/8001 (32%)]	Loss: 5.234847                         LR: 0.0001  Feat: 0.960 Epoch Time: 8.290 Model Time: 0.048 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 21.0 | [5120/8001 (65%)]	Loss: 5.189330                         LR: 0.0000  Feat: 0.961 Epoch Time: 9.489 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 21.0 | [7680/8001 (97%)]	Loss: 5.216167                         LR: 0.0000  Feat: 0.960 Epoch Time: 10.687 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 22.0 | [0/8001 (0%)]	Loss: 5.163117                         LR: 0.0000  Feat: 0.958 Epoch Time: 12.331 Model Time: 0.089 Data Time: 1.415 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 22.0 | [2560/8001 (32%)]	Loss: 5.222348                         LR: 0.0000  Feat: 0.957 Epoch Time: 13.592 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 22.0 | [5120/8001 (65%)]	Loss: 5.243461                         LR: 0.0000  Feat: 0.956 Epoch Time: 14.798 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 22.0 | [7680/8001 (97%)]	Loss: 5.211208                         LR: 0.0000  Feat: 0.959 Epoch Time: 16.005 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 23.0 | [0/8001 (0%)]	Loss: 5.241227                         LR: 0.0000  Feat: 0.957 Epoch Time: 17.660 Model Time: 0.111 Data Time: 1.462 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 23.0 | [2560/8001 (32%)]	Loss: 5.176905                         LR: 0.0000  Feat: 0.960 Epoch Time: 18.912 Model Time: 0.049 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 23.0 | [5120/8001 (65%)]	Loss: 5.152307                         LR: 0.0000  Feat: 0.957 Epoch Time: 20.117 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 23.0 | [7680/8001 (97%)]	Loss: 5.145782                         LR: 0.0000  Feat: 0.958 Epoch Time: 21.324 Model Time: 0.058 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 24.0 | [0/8001 (0%)]	Loss: 5.166762                         LR: 0.0000  Feat: 0.957 Epoch Time: 23.166 Model Time: 0.086 Data Time: 1.646 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 24.0 | [2560/8001 (32%)]	Loss: 5.155520                         LR: 0.0000  Feat: 0.955 Epoch Time: 24.415 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 24.0 | [5120/8001 (65%)]	Loss: 5.112049                         LR: 0.0000  Feat: 0.956 Epoch Time: 25.619 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 4 | Local Epoch : 24.0 | [7680/8001 (97%)]	Loss: 5.165334                         LR: 0.0000  Feat: 0.956 Epoch Time: 26.825 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Regular Decentralized averaging 
+dividing sum by:  4
+regular avg, epoch 4 new weights for agent 0 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9966, 1.0001, 0.9957, 0.9947], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 4 new weights for agent 1 and key f.6.0.bn2.weight are : tensor([1.0025, 0.9969, 1.0001, 0.9957, 0.9946], device='cuda:0')
+dividing sum by:  4
+regular avg, epoch 4 new weights for agent 2 and key f.6.0.bn2.weight are : tensor([1.0025, 0.9971, 1.0001, 0.9958, 0.9944], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 4 new weights for agent 3 and key f.6.0.bn2.weight are : tensor([1.0025, 0.9969, 1.0001, 0.9957, 0.9946], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 4 new weights for agent 4 and key f.6.0.bn2.weight are : tensor([1.0025, 0.9969, 1.0001, 0.9957, 0.9946], device='cuda:0')
+
+ | Global Training Round : 6 | Model : 06-03_03:03_70547
+
+Updating local model for agent:  0
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 25.0 | [0/8002 (0%)]	Loss: 5.164132                         LR: 0.0000  Feat: 0.960 Epoch Time: 1.580 Model Time: 0.086 Data Time: 1.428 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 25.0 | [2560/8002 (32%)]	Loss: 5.142429                         LR: 0.0000  Feat: 0.962 Epoch Time: 2.823 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 25.0 | [5120/8002 (65%)]	Loss: 5.135621                         LR: 0.0000  Feat: 0.963 Epoch Time: 4.028 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 25.0 | [7680/8002 (97%)]	Loss: 5.084420                         LR: 0.0000  Feat: 0.961 Epoch Time: 5.233 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 26.0 | [0/8002 (0%)]	Loss: 5.081068                         LR: 0.0000  Feat: 0.963 Epoch Time: 6.994 Model Time: 0.096 Data Time: 1.531 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 26.0 | [2560/8002 (32%)]	Loss: 5.171557                         LR: 0.0000  Feat: 0.960 Epoch Time: 8.244 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 26.0 | [5120/8002 (65%)]	Loss: 5.144811                         LR: 0.0000  Feat: 0.961 Epoch Time: 9.450 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 26.0 | [7680/8002 (97%)]	Loss: 5.155404                         LR: 0.0000  Feat: 0.958 Epoch Time: 10.655 Model Time: 0.057 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 27.0 | [0/8002 (0%)]	Loss: 5.133014                         LR: 0.0000  Feat: 0.961 Epoch Time: 12.380 Model Time: 0.086 Data Time: 1.500 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 27.0 | [2560/8002 (32%)]	Loss: 5.071001                         LR: 0.0000  Feat: 0.961 Epoch Time: 13.739 Model Time: 0.048 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 27.0 | [5120/8002 (65%)]	Loss: 5.126559                         LR: 0.0000  Feat: 0.957 Epoch Time: 14.936 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 27.0 | [7680/8002 (97%)]	Loss: 5.118467                         LR: 0.0000  Feat: 0.961 Epoch Time: 16.133 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 28.0 | [0/8002 (0%)]	Loss: 5.138600                         LR: 0.0000  Feat: 0.959 Epoch Time: 17.980 Model Time: 0.082 Data Time: 1.609 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 28.0 | [2560/8002 (32%)]	Loss: 5.169218                         LR: 0.0000  Feat: 0.960 Epoch Time: 19.176 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 28.0 | [5120/8002 (65%)]	Loss: 5.183153                         LR: 0.0000  Feat: 0.961 Epoch Time: 20.370 Model Time: 0.047 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 28.0 | [7680/8002 (97%)]	Loss: 5.142435                         LR: 0.0000  Feat: 0.957 Epoch Time: 21.564 Model Time: 0.047 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 29.0 | [0/8002 (0%)]	Loss: 5.137516                         LR: 0.0000  Feat: 0.958 Epoch Time: 23.305 Model Time: 0.097 Data Time: 1.555 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 29.0 | [2560/8002 (32%)]	Loss: 5.023398                         LR: 0.0000  Feat: 0.961 Epoch Time: 24.555 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 29.0 | [5120/8002 (65%)]	Loss: 5.114483                         LR: 0.0000  Feat: 0.960 Epoch Time: 25.750 Model Time: 0.047 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 0 | Global Round : 5 | Local Epoch : 29.0 | [7680/8002 (97%)]	Loss: 5.185749                         LR: 0.0000  Feat: 0.958 Epoch Time: 26.945 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Updating local model for agent:  1
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 25.0 | [0/11336 (0%)]	Loss: 5.260761                         LR: 0.0000  Feat: 0.957 Epoch Time: 1.668 Model Time: 0.104 Data Time: 1.545 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 25.0 | [2560/11336 (23%)]	Loss: 5.254944                         LR: 0.0000  Feat: 0.955 Epoch Time: 2.982 Model Time: 0.056 Data Time: 0.070 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 25.0 | [5120/11336 (45%)]	Loss: 5.324156                         LR: 0.0000  Feat: 0.953 Epoch Time: 4.191 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 25.0 | [7680/11336 (68%)]	Loss: 5.196328                         LR: 0.0000  Feat: 0.952 Epoch Time: 5.396 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 25.0 | [10240/11336 (91%)]	Loss: 5.231380                         LR: 0.0000  Feat: 0.953 Epoch Time: 6.602 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 26.0 | [0/11336 (0%)]	Loss: 5.211266                         LR: 0.0000  Feat: 0.953 Epoch Time: 8.645 Model Time: 0.103 Data Time: 1.436 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 26.0 | [2560/11336 (23%)]	Loss: 5.175137                         LR: 0.0000  Feat: 0.956 Epoch Time: 9.904 Model Time: 0.054 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 26.0 | [5120/11336 (45%)]	Loss: 5.244657                         LR: 0.0000  Feat: 0.952 Epoch Time: 11.114 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 26.0 | [7680/11336 (68%)]	Loss: 5.244414                         LR: 0.0000  Feat: 0.955 Epoch Time: 12.320 Model Time: 0.053 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 26.0 | [10240/11336 (91%)]	Loss: 5.184074                         LR: 0.0000  Feat: 0.953 Epoch Time: 13.522 Model Time: 0.048 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 27.0 | [0/11336 (0%)]	Loss: 5.185148                         LR: 0.0000  Feat: 0.954 Epoch Time: 15.539 Model Time: 0.117 Data Time: 1.410 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 27.0 | [2560/11336 (23%)]	Loss: 5.182738                         LR: 0.0000  Feat: 0.955 Epoch Time: 16.804 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 27.0 | [5120/11336 (45%)]	Loss: 5.235052                         LR: 0.0000  Feat: 0.953 Epoch Time: 18.012 Model Time: 0.058 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 27.0 | [7680/11336 (68%)]	Loss: 5.159854                         LR: 0.0000  Feat: 0.954 Epoch Time: 19.214 Model Time: 0.052 Data Time: 0.068 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 27.0 | [10240/11336 (91%)]	Loss: 5.201662                         LR: 0.0000  Feat: 0.953 Epoch Time: 20.418 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 28.0 | [0/11336 (0%)]	Loss: 5.171737                         LR: 0.0000  Feat: 0.953 Epoch Time: 22.439 Model Time: 0.089 Data Time: 1.426 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 28.0 | [2560/11336 (23%)]	Loss: 5.188378                         LR: 0.0000  Feat: 0.953 Epoch Time: 23.706 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 28.0 | [5120/11336 (45%)]	Loss: 5.194627                         LR: 0.0000  Feat: 0.953 Epoch Time: 24.916 Model Time: 0.057 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 28.0 | [7680/11336 (68%)]	Loss: 5.225919                         LR: 0.0000  Feat: 0.952 Epoch Time: 26.123 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 28.0 | [10240/11336 (91%)]	Loss: 5.157265                         LR: 0.0000  Feat: 0.953 Epoch Time: 27.332 Model Time: 0.055 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 29.0 | [0/11336 (0%)]	Loss: 5.183693                         LR: 0.0000  Feat: 0.952 Epoch Time: 29.346 Model Time: 0.092 Data Time: 1.433 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 29.0 | [2560/11336 (23%)]	Loss: 5.278881                         LR: 0.0000  Feat: 0.953 Epoch Time: 30.686 Model Time: 0.057 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 29.0 | [5120/11336 (45%)]	Loss: 5.189972                         LR: 0.0000  Feat: 0.953 Epoch Time: 31.897 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 29.0 | [7680/11336 (68%)]	Loss: 5.165426                         LR: 0.0000  Feat: 0.953 Epoch Time: 33.106 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 1 | Global Round : 5 | Local Epoch : 29.0 | [10240/11336 (91%)]	Loss: 5.215075                         LR: 0.0000  Feat: 0.952 Epoch Time: 34.314 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  2
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 25.0 | [0/4660 (0%)]	Loss: 5.259192                         LR: 0.0000  Feat: 0.955 Epoch Time: 1.527 Model Time: 0.068 Data Time: 1.403 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 25.0 | [2560/4660 (56%)]	Loss: 5.254533                         LR: 0.0000  Feat: 0.956 Epoch Time: 2.733 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 26.0 | [0/4660 (0%)]	Loss: 5.276490                         LR: 0.0000  Feat: 0.954 Epoch Time: 5.218 Model Time: 0.062 Data Time: 1.439 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 26.0 | [2560/4660 (56%)]	Loss: 5.226107                         LR: 0.0000  Feat: 0.956 Epoch Time: 6.424 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 27.0 | [0/4660 (0%)]	Loss: 5.253577                         LR: 0.0000  Feat: 0.955 Epoch Time: 8.944 Model Time: 0.058 Data Time: 1.484 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 27.0 | [2560/4660 (56%)]	Loss: 5.247524                         LR: 0.0000  Feat: 0.952 Epoch Time: 10.147 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 28.0 | [0/4660 (0%)]	Loss: 5.149688                         LR: 0.0000  Feat: 0.953 Epoch Time: 12.562 Model Time: 0.071 Data Time: 1.375 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 28.0 | [2560/4660 (56%)]	Loss: 5.255683                         LR: 0.0000  Feat: 0.953 Epoch Time: 13.764 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 29.0 | [0/4660 (0%)]	Loss: 5.283924                         LR: 0.0000  Feat: 0.954 Epoch Time: 16.224 Model Time: 0.052 Data Time: 1.424 Model: 06-03_03:03_70547
+Update SSL || User : 2 | Global Round : 5 | Local Epoch : 29.0 | [2560/4660 (56%)]	Loss: 5.266252                         LR: 0.0000  Feat: 0.953 Epoch Time: 17.430 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Updating local model for agent:  3
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 25.0 | [0/7999 (0%)]	Loss: 5.192417                         LR: 0.0000  Feat: 0.961 Epoch Time: 1.621 Model Time: 0.101 Data Time: 1.464 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 25.0 | [2560/7999 (32%)]	Loss: 5.140744                         LR: 0.0000  Feat: 0.960 Epoch Time: 2.876 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 25.0 | [5120/7999 (65%)]	Loss: 5.182042                         LR: 0.0000  Feat: 0.959 Epoch Time: 4.081 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 25.0 | [7680/7999 (97%)]	Loss: 5.107611                         LR: 0.0000  Feat: 0.959 Epoch Time: 5.286 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 26.0 | [0/7999 (0%)]	Loss: 5.041865                         LR: 0.0000  Feat: 0.957 Epoch Time: 7.014 Model Time: 0.078 Data Time: 1.499 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 26.0 | [2560/7999 (32%)]	Loss: 5.142349                         LR: 0.0000  Feat: 0.957 Epoch Time: 8.277 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 26.0 | [5120/7999 (65%)]	Loss: 5.082801                         LR: 0.0000  Feat: 0.958 Epoch Time: 9.481 Model Time: 0.057 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 26.0 | [7680/7999 (97%)]	Loss: 5.067298                         LR: 0.0000  Feat: 0.957 Epoch Time: 10.687 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 27.0 | [0/7999 (0%)]	Loss: 5.167660                         LR: 0.0000  Feat: 0.955 Epoch Time: 12.414 Model Time: 0.096 Data Time: 1.491 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 27.0 | [2560/7999 (32%)]	Loss: 5.027807                         LR: 0.0000  Feat: 0.954 Epoch Time: 13.675 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 27.0 | [5120/7999 (65%)]	Loss: 5.081534                         LR: 0.0000  Feat: 0.958 Epoch Time: 14.877 Model Time: 0.052 Data Time: 0.069 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 27.0 | [7680/7999 (97%)]	Loss: 5.082935                         LR: 0.0000  Feat: 0.956 Epoch Time: 16.077 Model Time: 0.048 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 28.0 | [0/7999 (0%)]	Loss: 5.105100                         LR: 0.0000  Feat: 0.955 Epoch Time: 17.714 Model Time: 0.077 Data Time: 1.423 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 28.0 | [2560/7999 (32%)]	Loss: 5.119161                         LR: 0.0000  Feat: 0.956 Epoch Time: 18.978 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 28.0 | [5120/7999 (65%)]	Loss: 5.089514                         LR: 0.0000  Feat: 0.955 Epoch Time: 20.184 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 28.0 | [7680/7999 (97%)]	Loss: 5.088734                         LR: 0.0000  Feat: 0.954 Epoch Time: 21.389 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 29.0 | [0/7999 (0%)]	Loss: 5.035021                         LR: 0.0000  Feat: 0.954 Epoch Time: 23.114 Model Time: 0.082 Data Time: 1.509 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 29.0 | [2560/7999 (32%)]	Loss: 5.043888                         LR: 0.0000  Feat: 0.955 Epoch Time: 24.376 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 29.0 | [5120/7999 (65%)]	Loss: 5.120314                         LR: 0.0000  Feat: 0.953 Epoch Time: 25.581 Model Time: 0.056 Data Time: 0.064 Model: 06-03_03:03_70547
+Update SSL || User : 3 | Global Round : 5 | Local Epoch : 29.0 | [7680/7999 (97%)]	Loss: 5.085060                         LR: 0.0000  Feat: 0.955 Epoch Time: 26.788 Model Time: 0.057 Data Time: 0.063 Model: 06-03_03:03_70547
+Updating local model for agent:  4
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 25.0 | [0/8001 (0%)]	Loss: 5.230538                         LR: 0.0000  Feat: 0.956 Epoch Time: 1.735 Model Time: 0.096 Data Time: 1.583 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 25.0 | [2560/8001 (32%)]	Loss: 5.203104                         LR: 0.0000  Feat: 0.956 Epoch Time: 2.991 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 25.0 | [5120/8001 (65%)]	Loss: 5.157406                         LR: 0.0000  Feat: 0.957 Epoch Time: 4.195 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 25.0 | [7680/8001 (97%)]	Loss: 5.139296                         LR: 0.0000  Feat: 0.957 Epoch Time: 5.400 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 26.0 | [0/8001 (0%)]	Loss: 5.173373                         LR: 0.0000  Feat: 0.956 Epoch Time: 7.065 Model Time: 0.112 Data Time: 1.456 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 26.0 | [2560/8001 (32%)]	Loss: 5.208303                         LR: 0.0000  Feat: 0.956 Epoch Time: 8.392 Model Time: 0.055 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 26.0 | [5120/8001 (65%)]	Loss: 5.186399                         LR: 0.0000  Feat: 0.954 Epoch Time: 9.597 Model Time: 0.055 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 26.0 | [7680/8001 (97%)]	Loss: 5.174676                         LR: 0.0000  Feat: 0.955 Epoch Time: 10.801 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 27.0 | [0/8001 (0%)]	Loss: 5.205969                         LR: 0.0000  Feat: 0.954 Epoch Time: 12.535 Model Time: 0.093 Data Time: 1.492 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 27.0 | [2560/8001 (32%)]	Loss: 5.174774                         LR: 0.0000  Feat: 0.953 Epoch Time: 13.754 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 27.0 | [5120/8001 (65%)]	Loss: 5.186488                         LR: 0.0000  Feat: 0.954 Epoch Time: 14.957 Model Time: 0.056 Data Time: 0.066 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 27.0 | [7680/8001 (97%)]	Loss: 5.145949                         LR: 0.0000  Feat: 0.954 Epoch Time: 16.163 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 28.0 | [0/8001 (0%)]	Loss: 5.192828                         LR: 0.0000  Feat: 0.954 Epoch Time: 17.835 Model Time: 0.106 Data Time: 1.437 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 28.0 | [2560/8001 (32%)]	Loss: 5.222474                         LR: 0.0000  Feat: 0.953 Epoch Time: 19.090 Model Time: 0.049 Data Time: 0.071 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 28.0 | [5120/8001 (65%)]	Loss: 5.118459                         LR: 0.0000  Feat: 0.954 Epoch Time: 20.285 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 28.0 | [7680/8001 (97%)]	Loss: 5.161331                         LR: 0.0000  Feat: 0.953 Epoch Time: 21.481 Model Time: 0.048 Data Time: 0.072 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 29.0 | [0/8001 (0%)]	Loss: 5.193585                         LR: 0.0000  Feat: 0.953 Epoch Time: 23.275 Model Time: 0.103 Data Time: 1.602 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 29.0 | [2560/8001 (32%)]	Loss: 5.190465                         LR: 0.0000  Feat: 0.955 Epoch Time: 24.518 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 29.0 | [5120/8001 (65%)]	Loss: 5.193379                         LR: 0.0000  Feat: 0.954 Epoch Time: 25.724 Model Time: 0.055 Data Time: 0.065 Model: 06-03_03:03_70547
+Update SSL || User : 4 | Global Round : 5 | Local Epoch : 29.0 | [7680/8001 (97%)]	Loss: 5.196019                         LR: 0.0000  Feat: 0.953 Epoch Time: 26.930 Model Time: 0.056 Data Time: 0.065 Model: 06-03_03:03_70547
+Regular Decentralized averaging 
+dividing sum by:  4
+regular avg, epoch 5 new weights for agent 0 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9969, 1.0000, 0.9957, 0.9947], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 5 new weights for agent 1 and key f.6.0.bn2.weight are : tensor([1.0027, 0.9970, 1.0001, 0.9957, 0.9946], device='cuda:0')
+dividing sum by:  4
+regular avg, epoch 5 new weights for agent 2 and key f.6.0.bn2.weight are : tensor([1.0026, 0.9971, 1.0001, 0.9956, 0.9946], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 5 new weights for agent 3 and key f.6.0.bn2.weight are : tensor([1.0027, 0.9970, 1.0001, 0.9957, 0.9946], device='cuda:0')
+dividing sum by:  5
+regular avg, epoch 5 new weights for agent 4 and key f.6.0.bn2.weight are : tensor([1.0027, 0.9970, 1.0001, 0.9957, 0.9946], device='cuda:0')
+evaluating representations:  save/06-03_03:03_70547dirich_True_dec-True_ED-False_pe0.8_a5_e30_le5.0
+Training a classifier on each of the local models and averaging the accuracy result
+Start tarining Classifier for user 4
+Training classifier
+sampling for dataset: mnist
+Files already downloaded and verified
+train dataset sample num: (50000, 32, 32, 3)
+Files already downloaded and verified
+Files already downloaded and verified
+get dataset time: 2.212
+Y dirichlet sampling
+sample dataset time: 0.010
+user data samples: [9998, 10027, 9972, 10000, 10003]
+begin training classifier...
+Backbone model function:  <function resnet18 at 0x7fa5e1b495a0>
+Downstream Train Epoch: 1 [0/50000 (0%)]	Loss: 2.400485
+Downstream Train Epoch: 1 [12800/50000 (26%)]	Loss: 1.812667
+Downstream Train Epoch: 1 [25600/50000 (51%)]	Loss: 1.904291
+Downstream Train Epoch: 1 [38400/50000 (77%)]	Loss: 1.786356
+
+ Downstream Train loss: 1.8462017221110207 Acc: 0.3927
+Downstream Train Epoch: 2 [0/50000 (0%)]	Loss: 1.735255
+Downstream Train Epoch: 2 [12800/50000 (26%)]	Loss: 1.787235
+Downstream Train Epoch: 2 [25600/50000 (51%)]	Loss: 1.671929
+Downstream Train Epoch: 2 [38400/50000 (77%)]	Loss: 1.762695
+
+ Downstream Train loss: 1.7675871301670463 Acc: 0.4119
+Downstream Train Epoch: 3 [0/50000 (0%)]	Loss: 1.746726
+Downstream Train Epoch: 3 [12800/50000 (26%)]	Loss: 1.764283
+Downstream Train Epoch: 3 [25600/50000 (51%)]	Loss: 1.834514
+Downstream Train Epoch: 3 [38400/50000 (77%)]	Loss: 1.650475
+
+ Downstream Train loss: 1.747056819954697 Acc: 0.435
+Downstream Train Epoch: 4 [0/50000 (0%)]	Loss: 1.773983
+Downstream Train Epoch: 4 [12800/50000 (26%)]	Loss: 1.710718
+Downstream Train Epoch: 4 [25600/50000 (51%)]	Loss: 1.731045
+Downstream Train Epoch: 4 [38400/50000 (77%)]	Loss: 1.707352
+
+ Downstream Train loss: 1.7349079379013606 Acc: 0.4419
+Downstream Train Epoch: 5 [0/50000 (0%)]	Loss: 1.716068
+Downstream Train Epoch: 5 [12800/50000 (26%)]	Loss: 1.632922
+Downstream Train Epoch: 5 [25600/50000 (51%)]	Loss: 1.772521
+Downstream Train Epoch: 5 [38400/50000 (77%)]	Loss: 1.707162
+
+ Downstream Train loss: 1.7209185428765355 Acc: 0.4419
+Downstream Train Epoch: 6 [0/50000 (0%)]	Loss: 1.807968
+Downstream Train Epoch: 6 [12800/50000 (26%)]	Loss: 1.669499
+Downstream Train Epoch: 6 [25600/50000 (51%)]	Loss: 1.703018
+Downstream Train Epoch: 6 [38400/50000 (77%)]	Loss: 1.642221
+
+ Downstream Train loss: 1.713451132482412 Acc: 0.4442
+Downstream Train Epoch: 7 [0/50000 (0%)]	Loss: 1.750953
+Downstream Train Epoch: 7 [12800/50000 (26%)]	Loss: 1.694363
+Downstream Train Epoch: 7 [25600/50000 (51%)]	Loss: 1.704278
+Downstream Train Epoch: 7 [38400/50000 (77%)]	Loss: 1.668294
+
+ Downstream Train loss: 1.7094947397708893 Acc: 0.4515
+Downstream Train Epoch: 8 [0/50000 (0%)]	Loss: 1.699400
+Downstream Train Epoch: 8 [12800/50000 (26%)]	Loss: 1.653557
+Downstream Train Epoch: 8 [25600/50000 (51%)]	Loss: 1.612340
+Downstream Train Epoch: 8 [38400/50000 (77%)]	Loss: 1.667048
+
+ Downstream Train loss: 1.7037342494847822 Acc: 0.4515
+Downstream Train Epoch: 9 [0/50000 (0%)]	Loss: 1.696969
+Downstream Train Epoch: 9 [12800/50000 (26%)]	Loss: 1.592294
+Downstream Train Epoch: 9 [25600/50000 (51%)]	Loss: 1.737825
+Downstream Train Epoch: 9 [38400/50000 (77%)]	Loss: 1.531432
+
+ Downstream Train loss: 1.7009353741091124 Acc: 0.4516
+Downstream Train Epoch: 10 [0/50000 (0%)]	Loss: 1.788986
+Downstream Train Epoch: 10 [12800/50000 (26%)]	Loss: 1.678667
+Downstream Train Epoch: 10 [25600/50000 (51%)]	Loss: 1.702484
+Downstream Train Epoch: 10 [38400/50000 (77%)]	Loss: 1.670212
+
+ Downstream Train loss: 1.6945595668286693 Acc: 0.4594
+Downstream Train Epoch: 11 [0/50000 (0%)]	Loss: 1.675221
+Downstream Train Epoch: 11 [12800/50000 (26%)]	Loss: 1.695132
+Downstream Train Epoch: 11 [25600/50000 (51%)]	Loss: 1.755589
+Downstream Train Epoch: 11 [38400/50000 (77%)]	Loss: 1.737623
+
+ Downstream Train loss: 1.6937539279460907 Acc: 0.4594
+Downstream Train Epoch: 12 [0/50000 (0%)]	Loss: 1.675174
+Downstream Train Epoch: 12 [12800/50000 (26%)]	Loss: 1.780347
+Downstream Train Epoch: 12 [25600/50000 (51%)]	Loss: 1.726659
+Downstream Train Epoch: 12 [38400/50000 (77%)]	Loss: 1.605958
+
+ Downstream Train loss: 1.6943639705375748 Acc: 0.4594
+Downstream Train Epoch: 13 [0/50000 (0%)]	Loss: 1.776002
+Downstream Train Epoch: 13 [12800/50000 (26%)]	Loss: 1.777358
+Downstream Train Epoch: 13 [25600/50000 (51%)]	Loss: 1.725706
+Downstream Train Epoch: 13 [38400/50000 (77%)]	Loss: 1.631187
+
+ Downstream Train loss: 1.6827123609124397 Acc: 0.4594
+Downstream Train Epoch: 14 [0/50000 (0%)]	Loss: 1.713014
+Downstream Train Epoch: 14 [12800/50000 (26%)]	Loss: 1.691937
+Downstream Train Epoch: 14 [25600/50000 (51%)]	Loss: 1.817543
+Downstream Train Epoch: 14 [38400/50000 (77%)]	Loss: 1.604017
+
+ Downstream Train loss: 1.6794669980905494 Acc: 0.4606
+Downstream Train Epoch: 15 [0/50000 (0%)]	Loss: 1.670336
+Downstream Train Epoch: 15 [12800/50000 (26%)]	Loss: 1.710800
+Downstream Train Epoch: 15 [25600/50000 (51%)]	Loss: 1.600120
+Downstream Train Epoch: 15 [38400/50000 (77%)]	Loss: 1.617604
+
+ Downstream Train loss: 1.6772312424620803 Acc: 0.4606
+Downstream Train Epoch: 16 [0/50000 (0%)]	Loss: 1.725322
+Downstream Train Epoch: 16 [12800/50000 (26%)]	Loss: 1.719661
+Downstream Train Epoch: 16 [25600/50000 (51%)]	Loss: 1.621906
+Downstream Train Epoch: 16 [38400/50000 (77%)]	Loss: 1.705927
+
+ Downstream Train loss: 1.680348973493187 Acc: 0.4606
+Downstream Train Epoch: 17 [0/50000 (0%)]	Loss: 1.688880
+Downstream Train Epoch: 17 [12800/50000 (26%)]	Loss: 1.699615
+Downstream Train Epoch: 17 [25600/50000 (51%)]	Loss: 1.636648
+Downstream Train Epoch: 17 [38400/50000 (77%)]	Loss: 1.708756
+
+ Downstream Train loss: 1.6721981842907108 Acc: 0.4606
+Downstream Train Epoch: 18 [0/50000 (0%)]	Loss: 1.645518
+Downstream Train Epoch: 18 [12800/50000 (26%)]	Loss: 1.590154
+Downstream Train Epoch: 18 [25600/50000 (51%)]	Loss: 1.734998
+Downstream Train Epoch: 18 [38400/50000 (77%)]	Loss: 1.569592
+
+ Downstream Train loss: 1.6723503397435557 Acc: 0.4606
+Downstream Train Epoch: 19 [0/50000 (0%)]	Loss: 1.655030
+Downstream Train Epoch: 19 [12800/50000 (26%)]	Loss: 1.708967
+Downstream Train Epoch: 19 [25600/50000 (51%)]	Loss: 1.631697
+Downstream Train Epoch: 19 [38400/50000 (77%)]	Loss: 1.677476
+
+ Downstream Train loss: 1.6737753250160996 Acc: 0.4705
+Downstream Train Epoch: 20 [0/50000 (0%)]	Loss: 1.723185
+Downstream Train Epoch: 20 [12800/50000 (26%)]	Loss: 1.715153
+Downstream Train Epoch: 20 [25600/50000 (51%)]	Loss: 1.576094
+Downstream Train Epoch: 20 [38400/50000 (77%)]	Loss: 1.638942
+
+ Downstream Train loss: 1.6713230585565373 Acc: 0.4705
+Downstream Train Epoch: 21 [0/50000 (0%)]	Loss: 1.683070
+Downstream Train Epoch: 21 [12800/50000 (26%)]	Loss: 1.631658
+Downstream Train Epoch: 21 [25600/50000 (51%)]	Loss: 1.725282
+Downstream Train Epoch: 21 [38400/50000 (77%)]	Loss: 1.605969
+
+ Downstream Train loss: 1.6666425344895344 Acc: 0.4705
+Downstream Train Epoch: 22 [0/50000 (0%)]	Loss: 1.731853
+Downstream Train Epoch: 22 [12800/50000 (26%)]	Loss: 1.654203
+Downstream Train Epoch: 22 [25600/50000 (51%)]	Loss: 1.624965
+Downstream Train Epoch: 22 [38400/50000 (77%)]	Loss: 1.567440
+
+ Downstream Train loss: 1.667739219811498 Acc: 0.4705
+Downstream Train Epoch: 23 [0/50000 (0%)]	Loss: 1.601181
+Downstream Train Epoch: 23 [12800/50000 (26%)]	Loss: 1.713042
+Downstream Train Epoch: 23 [25600/50000 (51%)]	Loss: 1.644594
+Downstream Train Epoch: 23 [38400/50000 (77%)]	Loss: 1.536694
+
+ Downstream Train loss: 1.669998182325947 Acc: 0.4705
+Downstream Train Epoch: 24 [0/50000 (0%)]	Loss: 1.664545
+Downstream Train Epoch: 24 [12800/50000 (26%)]	Loss: 1.676684
+Downstream Train Epoch: 24 [25600/50000 (51%)]	Loss: 1.630981
+Downstream Train Epoch: 24 [38400/50000 (77%)]	Loss: 1.619988
+
+ Downstream Train loss: 1.6658897868224554 Acc: 0.4705
+Downstream Train Epoch: 25 [0/50000 (0%)]	Loss: 1.683366
+Downstream Train Epoch: 25 [12800/50000 (26%)]	Loss: 1.739624
+Downstream Train Epoch: 25 [25600/50000 (51%)]	Loss: 1.640966
+Downstream Train Epoch: 25 [38400/50000 (77%)]	Loss: 1.752353
+
+ Downstream Train loss: 1.654700174623606 Acc: 0.4713
+Downstream Train Epoch: 26 [0/50000 (0%)]	Loss: 1.680630
+Downstream Train Epoch: 26 [12800/50000 (26%)]	Loss: 1.659266
+Downstream Train Epoch: 26 [25600/50000 (51%)]	Loss: 1.670781
+Downstream Train Epoch: 26 [38400/50000 (77%)]	Loss: 1.768798
+
+ Downstream Train loss: 1.6663167239451895 Acc: 0.4713
+Downstream Train Epoch: 27 [0/50000 (0%)]	Loss: 1.666209
+Downstream Train Epoch: 27 [12800/50000 (26%)]	Loss: 1.692643
+Downstream Train Epoch: 27 [25600/50000 (51%)]	Loss: 1.626249
+Downstream Train Epoch: 27 [38400/50000 (77%)]	Loss: 1.674170
+
+ Downstream Train loss: 1.663620459181922 Acc: 0.4713
+Downstream Train Epoch: 28 [0/50000 (0%)]	Loss: 1.582987
+Downstream Train Epoch: 28 [12800/50000 (26%)]	Loss: 1.738851
+Downstream Train Epoch: 28 [25600/50000 (51%)]	Loss: 1.595962
+Downstream Train Epoch: 28 [38400/50000 (77%)]	Loss: 1.734712
+
+ Downstream Train loss: 1.655819598509341 Acc: 0.4806
+Downstream Train Epoch: 29 [0/50000 (0%)]	Loss: 1.595087
+Downstream Train Epoch: 29 [12800/50000 (26%)]	Loss: 1.651389
+Downstream Train Epoch: 29 [25600/50000 (51%)]	Loss: 1.738341
+Downstream Train Epoch: 29 [38400/50000 (77%)]	Loss: 1.631055
+
+ Downstream Train loss: 1.6532335488163694 Acc: 0.4806
+Downstream Train Epoch: 30 [0/50000 (0%)]	Loss: 1.626797
+Downstream Train Epoch: 30 [12800/50000 (26%)]	Loss: 1.709077
+Downstream Train Epoch: 30 [25600/50000 (51%)]	Loss: 1.675900
+Downstream Train Epoch: 30 [38400/50000 (77%)]	Loss: 1.811079
+
+ Downstream Train loss: 1.6577239425814883 Acc: 0.4815
+Downstream Train Epoch: 31 [0/50000 (0%)]	Loss: 1.750587
+Downstream Train Epoch: 31 [12800/50000 (26%)]	Loss: 1.634376
+Downstream Train Epoch: 31 [25600/50000 (51%)]	Loss: 1.645744
+Downstream Train Epoch: 31 [38400/50000 (77%)]	Loss: 1.609203
+
+ Downstream Train loss: 1.654612705415609 Acc: 0.4815
+Downstream Train Epoch: 32 [0/50000 (0%)]	Loss: 1.594345
+Downstream Train Epoch: 32 [12800/50000 (26%)]	Loss: 1.589795
+Downstream Train Epoch: 32 [25600/50000 (51%)]	Loss: 1.670384
+Downstream Train Epoch: 32 [38400/50000 (77%)]	Loss: 1.628112
+
+ Downstream Train loss: 1.6467491576866227 Acc: 0.4815
+Downstream Train Epoch: 33 [0/50000 (0%)]	Loss: 1.624920
+Downstream Train Epoch: 33 [12800/50000 (26%)]	Loss: 1.708990
+Downstream Train Epoch: 33 [25600/50000 (51%)]	Loss: 1.637418
+Downstream Train Epoch: 33 [38400/50000 (77%)]	Loss: 1.728869
+
+ Downstream Train loss: 1.6515426556674802 Acc: 0.4815
+Downstream Train Epoch: 34 [0/50000 (0%)]	Loss: 1.749986
+Downstream Train Epoch: 34 [12800/50000 (26%)]	Loss: 1.755233
+Downstream Train Epoch: 34 [25600/50000 (51%)]	Loss: 1.567009
+Downstream Train Epoch: 34 [38400/50000 (77%)]	Loss: 1.615618
+
+ Downstream Train loss: 1.6528689745737581 Acc: 0.4815
+Downstream Train Epoch: 35 [0/50000 (0%)]	Loss: 1.614858
+Downstream Train Epoch: 35 [12800/50000 (26%)]	Loss: 1.704486
+Downstream Train Epoch: 35 [25600/50000 (51%)]	Loss: 1.645401
+Downstream Train Epoch: 35 [38400/50000 (77%)]	Loss: 1.713541
+
+ Downstream Train loss: 1.6510750237776308 Acc: 0.4815
+Downstream Train Epoch: 36 [0/50000 (0%)]	Loss: 1.622483
+Downstream Train Epoch: 36 [12800/50000 (26%)]	Loss: 1.681765
+Downstream Train Epoch: 36 [25600/50000 (51%)]	Loss: 1.658345
+Downstream Train Epoch: 36 [38400/50000 (77%)]	Loss: 1.580703
+
+ Downstream Train loss: 1.6490024030208588 Acc: 0.4815
+Downstream Train Epoch: 37 [0/50000 (0%)]	Loss: 1.663725
+Downstream Train Epoch: 37 [12800/50000 (26%)]	Loss: 1.690195
+Downstream Train Epoch: 37 [25600/50000 (51%)]	Loss: 1.678185
+Downstream Train Epoch: 37 [38400/50000 (77%)]	Loss: 1.644762
+
+ Downstream Train loss: 1.6506594340411984 Acc: 0.4815
+Downstream Train Epoch: 38 [0/50000 (0%)]	Loss: 1.653290
+Downstream Train Epoch: 38 [12800/50000 (26%)]	Loss: 1.693697
+Downstream Train Epoch: 38 [25600/50000 (51%)]	Loss: 1.692569
+Downstream Train Epoch: 38 [38400/50000 (77%)]	Loss: 1.579066
+
+ Downstream Train loss: 1.6498537465017669 Acc: 0.4815
+Downstream Train Epoch: 39 [0/50000 (0%)]	Loss: 1.625108
+Downstream Train Epoch: 39 [12800/50000 (26%)]	Loss: 1.654138
+Downstream Train Epoch: 39 [25600/50000 (51%)]	Loss: 1.607880
+Downstream Train Epoch: 39 [38400/50000 (77%)]	Loss: 1.626215
+
+ Downstream Train loss: 1.655730973092877 Acc: 0.4815
+Downstream Train Epoch: 40 [0/50000 (0%)]	Loss: 1.680842
+Downstream Train Epoch: 40 [12800/50000 (26%)]	Loss: 1.616598
+Downstream Train Epoch: 40 [25600/50000 (51%)]	Loss: 1.628110
+Downstream Train Epoch: 40 [38400/50000 (77%)]	Loss: 1.552525
+
+ Downstream Train loss: 1.6446189953356374 Acc: 0.4815
+Classifier Accuracy for user 4 is 0.4815
+Training a classifier on the federated global model
+ 
+ Results after 30 global rounds of training:
+|----Average Classifier Test Accuracy for 5 agents is: 48.15%
+
+ Total Run Time: 1254.8371
+Namespace(split_dataset=None, average_with_A=False, phi_equal_w=False, exact_diffusion=False, decentralized=True, edge_prob=0.8, epochs=30, num_users=5, frac=1.0, local_ep=5.0, local_bs=256, lr=0.001, momentum=0.9, num_workers=16, model='resnet', batch_size=256, weight_decay=0.0005, dataset='mnist', backbone='resnet18', num_classes=10, gpu='1', optimizer='adam', save_name_suffix='', iid=0, verbose=0, seed=1, feature_dim=128, temperature=0.5, k=200, ssl_method='simclr', x_noniid=False, dirichlet=True, test_intermediate=False, dir_beta=0.01, imagenet_based_cluster=False, y_partition=False, log_file_name='comm_scripts/best_linear_statistics_skew_ssl_comm.csv', num_clusters=1, imagenet100=False, y_partition_skew=False, y_partition_ratio=1, x_shift_dirichlet=False, reg_scale=1, load_pretrained_path='', full_size=False, local_rank=0, distributed_training=False, log_directory='dirichlet_short/06-03_03:03_drich-true_dec-true_ED-false_ep0.8_e30_le5_a5', emd=0, dist_url='env://', average_without_bn=False, model_continue_training=0, finetuning_epoch=40, script_name='', x_shift_skew=False, load_dataset_to_memory=False, model_time='06-03_03:03_70547', start_time=datetime.datetime(2024, 6, 3, 3, 3, 49, 268513))
+dec_True_ED_False_a_5_resnet_256_30__dec_ssl_simclr

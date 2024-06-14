@@ -1,0 +1,20 @@
+  0%|          | 0/6 [00:00<?, ?it/s]  0%|          | 0/6 [03:18<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 628, in save
+    _save(obj, opened_zipfile, pickle_module, pickle_protocol, _disable_byteorder_record)
+  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 862, in _save
+    zip_file.write_record(name, storage, num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:764] . PytorchStreamWriter failed writing file data/114: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/fed_sim/src/main.py", line 165, in <module>
+    local_models[idx].save_model(model_output_dir, suffix="agent_" + str(idx), step=epoch)
+  File "/root/fed_sim/src/models.py", line 98, in save_model
+    torch.save(
+  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 627, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 475, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:595] . unexpected pos 10006976 vs 10006872

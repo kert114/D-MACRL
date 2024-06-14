@@ -1,0 +1,19 @@
+Value for phi value for agent 0 before averaging with key f.6.0.bn2.weight is: tensor([1.0009, 0.9991, 1.0009, 0.9991, 0.9991], device='mps:0')
+Value for phi value for agent 1 before averaging with key f.6.0.bn2.weight is: tensor([0.9991, 0.9991, 1.0009, 0.9991, 0.9991], device='mps:0')
+temp phi for agent 0 before averaging for key f.6.0.bn2.weight: tensor([0., 0., 0., 0., 0.], device='mps:0')
+Phi before avereging for agent 0 and key f.6.0.bn2.weight: tensor([1.0009, 0.9991, 1.0009, 0.9991, 0.9991], device='mps:0')
+result of averaging for agent 0 and key f.6.0.bn2.weight: tensor([1.0000, 0.9991, 1.0009, 0.9991, 0.9991], device='mps:0')
+temp phi for agent 1 before averaging for key f.6.0.bn2.weight: tensor([0., 0., 0., 0., 0.], device='mps:0')
+Phi before avereging for agent 1 and key f.6.0.bn2.weight: tensor([0.9991, 0.9991, 1.0009, 0.9991, 0.9991], device='mps:0')
+result of averaging for agent 1 and key f.6.0.bn2.weight: tensor([1.0000, 0.9991, 1.0009, 0.9991, 0.9991], device='mps:0')
+
+
+exact_diffusion_averaging
+Value for phi value for agent 0 before averaging with key f.6.0.bn2.weight is: tensor([0.9993, 0.9989, 1.0011, 0.9993, 0.9989], device='mps:0')
+Value for phi value for agent 1 before averaging with key f.6.0.bn2.weight is: tensor([1.0007, 0.9993, 1.0011, 0.9993, 0.9989], device='mps:0')
+temp phi for agent 0 before averaging for key f.6.0.bn2.weight: tensor([0., 0., 0., 0., 0.], device='mps:0')
+Phi before avereging for agent 0 and key f.6.0.bn2.weight: tensor([0.9993, 0.9989, 1.0011, 0.9993, 0.9989], device='mps:0')
+result of averaging for agent 0 and key f.6.0.bn2.weight: tensor([1.0000, 0.9991, 1.0011, 0.9993, 0.9989], device='mps:0')
+temp phi for agent 1 before averaging for key f.6.0.bn2.weight: tensor([0., 0., 0., 0., 0.], device='mps:0')
+Phi before avereging for agent 1 and key f.6.0.bn2.weight: tensor([1.0007, 0.9993, 1.0011, 0.9993, 0.9989], device='mps:0')
+result of averaging for agent 1 and key f.6.0.bn2.weight: tensor([1.0000, 0.9991, 1.0011, 0.9993, 0.9989], device='mps:0')
