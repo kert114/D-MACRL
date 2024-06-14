@@ -1,15 +1,0 @@
-  0%|          | 0/20 [00:00<?, ?it/s]/root/fed_sim/venv/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
-  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
-  5%|▌         | 1/20 [02:13<42:19, 133.64s/it] 10%|█         | 2/20 [04:26<39:52, 132.90s/it] 10%|█         | 2/20 [06:38<59:42, 199.01s/it]
-Traceback (most recent call last):
-  File "/root/fed_sim/src/main.py", line 175, in <module>
-    global_model.save_model(model_output_dir, step=epoch)
-  File "/root/fed_sim/src/models.py", line 98, in save_model
-    torch.save(
-  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 627, in save
-    with _open_zipfile_writer(f) as opened_zipfile:
-  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 501, in _open_zipfile_writer
-    return container(name_or_buffer)
-  File "/root/fed_sim/venv/lib/python3.10/site-packages/torch/serialization.py", line 472, in __init__
-    super().__init__(torch._C.PyTorchFileWriter(self.name))
-RuntimeError: Parent directory save/05-30_18:47_609039dirich_False_dec-False_ED-False_pe1_a5_e100_le5.0 does not exist.

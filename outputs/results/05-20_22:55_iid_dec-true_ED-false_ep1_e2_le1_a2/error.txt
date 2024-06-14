@@ -1,113 +1,0 @@
-  0%|          | 0/2 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/torch/optim/lr_scheduler.py:139: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
-  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
- 50%|█████     | 1/2 [00:07<00:07,  7.28s/it]100%|██████████| 2/2 [00:16<00:00,  8.53s/it]100%|██████████| 2/2 [00:16<00:00,  8.34s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=27.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=25.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=25.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=25.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=25.1][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=24.9][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.48it/s, Accuracy=24.9][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.48it/s, Accuracy=24.9][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.48it/s, Accuracy=25.4][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.48it/s, Accuracy=24.8][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.48it/s, Accuracy=24.6][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.48it/s, Accuracy=24.3][A
-Linear Probing:  15%|#5        | 6/40 [00:02<00:06,  5.48it/s, Accuracy=24.3][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:04,  5.67it/s, Accuracy=24.3][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:04,  5.67it/s, Accuracy=24.2][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:04,  5.67it/s, Accuracy=24.2][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:04,  5.67it/s, Accuracy=24.2][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:04,  5.67it/s, Accuracy=23.9][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:04,  5.67it/s, Accuracy=24.1][A
-Linear Probing:  30%|###       | 12/40 [00:03<00:04,  5.67it/s, Accuracy=24.2][A
-Linear Probing:  30%|###       | 12/40 [00:03<00:04,  5.67it/s, Accuracy=24.2][A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=24.2][A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=24.3][A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=24.3][A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=24.1][A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=24]  [A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=23.9][A
-Linear Probing:  48%|####7     | 19/40 [00:03<00:03,  6.08it/s, Accuracy=23.8][A
-Linear Probing:  48%|####7     | 19/40 [00:04<00:03,  6.08it/s, Accuracy=23.6][A
-Linear Probing:  65%|######5   | 26/40 [00:04<00:02,  6.43it/s, Accuracy=23.6][A
-Linear Probing:  65%|######5   | 26/40 [00:04<00:02,  6.43it/s, Accuracy=23.6][A
-Linear Probing:  65%|######5   | 26/40 [00:04<00:02,  6.43it/s, Accuracy=23.7][A
-Linear Probing:  65%|######5   | 26/40 [00:04<00:02,  6.43it/s, Accuracy=23.8][A
-Linear Probing:  65%|######5   | 26/40 [00:04<00:02,  6.43it/s, Accuracy=23.8][A
-Linear Probing:  65%|######5   | 26/40 [00:05<00:02,  6.43it/s, Accuracy=23.7][A
-Linear Probing:  65%|######5   | 26/40 [00:05<00:02,  6.43it/s, Accuracy=23.7][A
-Linear Probing:  65%|######5   | 26/40 [00:05<00:02,  6.43it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:05<00:01,  5.32it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:06<00:01,  5.32it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:06<00:01,  5.32it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:06<00:01,  5.32it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:07<00:01,  5.32it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:07<00:01,  5.32it/s, Accuracy=23.6][A
-Linear Probing:  82%|########2 | 33/40 [00:07<00:01,  5.32it/s, Accuracy=23.7][A
-Linear Probing:  98%|#########7| 39/40 [00:07<00:00,  4.38it/s, Accuracy=23.7][A
-Linear Probing:  98%|#########7| 39/40 [00:08<00:00,  4.38it/s, Accuracy=23.7][ALinear Probing: 100%|##########| 40/40 [00:08<00:00,  4.44it/s, Accuracy=23.7]
-100%|██████████| 1/1 [00:39<00:00, 39.00s/it]100%|██████████| 1/1 [00:39<00:00, 39.00s/it]
-  0%|          | 0/1 [00:00<?, ?it/s]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=20.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=21.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=21.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=22.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=22.3][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=22.1][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.06it/s, Accuracy=22.1][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.06it/s, Accuracy=22.2][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.06it/s, Accuracy=22.2][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.06it/s, Accuracy=22.1][A
-Linear Probing:  15%|#5        | 6/40 [00:01<00:06,  5.06it/s, Accuracy=22.3][A
-Linear Probing:  15%|#5        | 6/40 [00:02<00:06,  5.06it/s, Accuracy=22.2][A
-Linear Probing:  15%|#5        | 6/40 [00:02<00:06,  5.06it/s, Accuracy=22.7][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:05,  5.54it/s, Accuracy=22.7][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:05,  5.54it/s, Accuracy=22.7][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:05,  5.54it/s, Accuracy=23]  [A
-Linear Probing:  30%|###       | 12/40 [00:02<00:05,  5.54it/s, Accuracy=22.9][A
-Linear Probing:  30%|###       | 12/40 [00:02<00:05,  5.54it/s, Accuracy=23.1][A
-Linear Probing:  30%|###       | 12/40 [00:03<00:05,  5.54it/s, Accuracy=23.1][A
-Linear Probing:  30%|###       | 12/40 [00:03<00:05,  5.54it/s, Accuracy=23.2][A
-Linear Probing:  45%|####5     | 18/40 [00:03<00:04,  5.30it/s, Accuracy=23.2][A
-Linear Probing:  45%|####5     | 18/40 [00:03<00:04,  5.30it/s, Accuracy=23]  [A
-Linear Probing:  45%|####5     | 18/40 [00:03<00:04,  5.30it/s, Accuracy=23.1][A
-Linear Probing:  45%|####5     | 18/40 [00:03<00:04,  5.30it/s, Accuracy=23.2][A
-Linear Probing:  45%|####5     | 18/40 [00:04<00:04,  5.30it/s, Accuracy=23.2][A
-Linear Probing:  45%|####5     | 18/40 [00:04<00:04,  5.30it/s, Accuracy=23.2][A
-Linear Probing:  45%|####5     | 18/40 [00:04<00:04,  5.30it/s, Accuracy=23.3][A
-Linear Probing:  60%|######    | 24/40 [00:04<00:03,  5.17it/s, Accuracy=23.3][A
-Linear Probing:  60%|######    | 24/40 [00:04<00:03,  5.17it/s, Accuracy=23.2][A
-Linear Probing:  60%|######    | 24/40 [00:04<00:03,  5.17it/s, Accuracy=23.2][A
-Linear Probing:  60%|######    | 24/40 [00:04<00:03,  5.17it/s, Accuracy=23.1][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=23.2][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=23.2][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=23.2][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=23.2][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=23.1][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=22.9][A
-Linear Probing:  60%|######    | 24/40 [00:05<00:03,  5.17it/s, Accuracy=22.9][A
-Linear Probing:  85%|########5 | 34/40 [00:05<00:00,  6.66it/s, Accuracy=22.9][A
-Linear Probing:  85%|########5 | 34/40 [00:05<00:00,  6.66it/s, Accuracy=23]  [A
-Linear Probing:  85%|########5 | 34/40 [00:05<00:00,  6.66it/s, Accuracy=22.9][A
-Linear Probing:  85%|########5 | 34/40 [00:05<00:00,  6.66it/s, Accuracy=22.9][A
-Linear Probing:  85%|########5 | 34/40 [00:06<00:00,  6.66it/s, Accuracy=22.9][A
-Linear Probing:  85%|########5 | 34/40 [00:06<00:00,  6.66it/s, Accuracy=22.9][A
-Linear Probing:  85%|########5 | 34/40 [00:06<00:00,  6.66it/s, Accuracy=22.9][ALinear Probing: 100%|##########| 40/40 [00:06<00:00,  6.55it/s, Accuracy=22.9]
-100%|██████████| 1/1 [00:39<00:00, 39.88s/it]100%|██████████| 1/1 [00:39<00:00, 39.88s/it]
-Traceback (most recent call last):
-  File "/root/fed_sim/src/main.py", line 217, in <module>
-    write_log_and_plot(model_time, model_output_dir, args, suffix, test_acc)
-  File "/root/fed_sim/src/utils.py", line 488, in write_log_and_plot
-    with open(
-FileNotFoundError: [Errno 2] No such file or directory: 'save/results/05-20_22:55_iid_dec-true_ED-false_ep1_e2_le1_a2/best_linear_statistics_results/05-20_22:55_iid_dec-true_ED-false_ep1_e2_le1_a2/skew_ssl_comm.csv'
-██████| 1/1 [00:44<00:00, 44.20s/it]
-Traceback (most recent call last):
-  File "/root/fed_sim/src/main.py", line 217, in <module>
-    write_log_and_plot(model_time, model_output_dir, args, suffix, test_acc)
-  File "/root/fed_sim/src/utils.py", line 488, in write_log_and_plot
-    with open(
-FileNotFoundError: [Errno 2] No such file or directory: 'save/results/05-20_22:55_iid_dec-true_ED-false_ep1_e2_le1_a2/best_linear_statistics_results/05-20_22:55_iid_dec-true_ED-false_ep1_e2_le1_a2/skew_ssl_comm.csv'

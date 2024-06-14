@@ -1,1753 +1,0 @@
-  0%|          | 0/170498071 [00:00<?, ?it/s]  0%|          | 98304/170498071 [00:00<03:08, 901887.61it/s]  1%|          | 917504/170498071 [00:00<00:35, 4745924.83it/s]  4%|▍         | 6553600/170498071 [00:00<00:06, 25659095.68it/s]  9%|▊         | 14843904/170498071 [00:00<00:03, 46776725.14it/s] 13%|█▎        | 22413312/170498071 [00:00<00:02, 56421884.42it/s] 18%|█▊        | 30441472/170498071 [00:00<00:02, 64232796.19it/s] 22%|██▏       | 38240256/170498071 [00:00<00:01, 68390476.87it/s] 27%|██▋       | 45842432/170498071 [00:00<00:01, 70745252.21it/s] 32%|███▏      | 54001664/170498071 [00:00<00:01, 74040824.47it/s] 36%|███▌      | 61472768/170498071 [00:01<00:01, 73652062.02it/s] 41%|████      | 69664768/170498071 [00:01<00:01, 76139301.28it/s] 45%|████▌     | 77332480/170498071 [00:01<00:01, 75187565.75it/s] 50%|█████     | 85491712/170498071 [00:01<00:01, 77048223.72it/s] 55%|█████▍    | 93224960/170498071 [00:01<00:01, 75959830.40it/s] 59%|█████▉    | 100859904/170498071 [00:01<00:01, 69107867.92it/s] 63%|██████▎   | 108232704/170498071 [00:01<00:00, 70257362.64it/s] 68%|██████▊   | 115802112/170498071 [00:01<00:00, 71781078.16it/s] 73%|███████▎  | 124125184/170498071 [00:01<00:00, 75052305.38it/s] 77%|███████▋  | 131727360/170498071 [00:02<00:00, 63806785.64it/s] 81%|████████  | 138444800/170498071 [00:02<00:00, 50405303.68it/s] 85%|████████▍ | 144113664/170498071 [00:02<00:00, 37842180.96it/s] 87%|████████▋ | 148733952/170498071 [00:02<00:00, 31046596.26it/s] 89%|████████▉ | 152535040/170498071 [00:02<00:00, 27615619.78it/s] 91%|█████████▏| 155779072/170498071 [00:03<00:00, 25636732.90it/s] 93%|█████████▎| 158662656/170498071 [00:03<00:00, 24563180.19it/s] 95%|█████████▍| 161316864/170498071 [00:03<00:00, 23483000.29it/s] 96%|█████████▌| 163774464/170498071 [00:03<00:00, 23014963.70it/s] 97%|█████████▋| 166166528/170498071 [00:03<00:00, 22470353.85it/s] 99%|█████████▉| 168460288/170498071 [00:03<00:00, 21905723.18it/s]100%|██████████| 170498071/170498071 [00:03<00:00, 44573616.65it/s]
-  0%|          | 0/6 [00:00<?, ?it/s]/root/fed_sim/venv/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
-  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
- 17%|█▋        | 1/6 [07:40<38:23, 460.73s/it] 33%|███▎      | 2/6 [15:28<30:59, 464.87s/it] 50%|█████     | 3/6 [23:13<23:14, 464.76s/it] 67%|██████▋   | 4/6 [31:03<15:33, 466.89s/it] 83%|████████▎ | 5/6 [38:48<07:46, 466.41s/it]100%|██████████| 6/6 [46:32<00:00, 465.49s/it]100%|██████████| 6/6 [46:32<00:00, 465.42s/it]
-  0%|          | 0/40 [00:00<?, ?it/s]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=38.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=38.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=38.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=39.9][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=40.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=40.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=40.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=40]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=40][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=40][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.56it/s, Accuracy=39.4][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.56it/s, Accuracy=39.6][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.56it/s, Accuracy=39.5][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 18.90it/s, Accuracy=39.5][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 18.90it/s, Accuracy=39.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 18.61it/s, Accuracy=39.5]
-  2%|▎         | 1/40 [00:08<05:32,  8.51s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=40.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=42]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=42.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.6][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=43.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=43]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.95it/s, Accuracy=42.8][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.95it/s, Accuracy=42.7][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.11it/s, Accuracy=42.7][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.11it/s, Accuracy=42.6][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.52it/s, Accuracy=42.6]
-  5%|▌         | 2/40 [00:16<05:16,  8.33s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.8][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=43.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=44]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.16it/s, Accuracy=43.4][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.16it/s, Accuracy=43.3][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.16it/s, Accuracy=43.3][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.76it/s, Accuracy=43.3]
-  8%|▊         | 3/40 [00:24<05:06,  8.27s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=42.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=42]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=41.5][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=41.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.89it/s, Accuracy=41.5][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.89it/s, Accuracy=41.4][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.14it/s, Accuracy=41.4][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.14it/s, Accuracy=41.4][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.54it/s, Accuracy=41.4]
- 10%|█         | 4/40 [00:33<04:55,  8.20s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=45][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.75it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.75it/s, Accuracy=44.4][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.09it/s, Accuracy=44.4][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.09it/s, Accuracy=44.4][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.48it/s, Accuracy=44.4]
- 12%|█▎        | 5/40 [00:41<04:46,  8.19s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=45.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=45.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=45.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=45.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=45]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 19.00it/s, Accuracy=44.6][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 19.00it/s, Accuracy=44.5][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.05it/s, Accuracy=44.5][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.05it/s, Accuracy=44.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.48it/s, Accuracy=44.5]
- 15%|█▌        | 6/40 [00:49<04:38,  8.18s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.7][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=44.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=43.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=43.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=43.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=43.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=43.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.31it/s, Accuracy=43.9][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.31it/s, Accuracy=44.1][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.56it/s, Accuracy=44.1][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.56it/s, Accuracy=44]  [A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.56it/s, Accuracy=44][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 18.95it/s, Accuracy=44]
- 18%|█▊        | 7/40 [00:57<04:30,  8.19s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.6][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=44.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=45]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=45][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.52it/s, Accuracy=44.2][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.52it/s, Accuracy=44.4][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.57it/s, Accuracy=44.4][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.57it/s, Accuracy=44.3][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.57it/s, Accuracy=44.2][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 18.99it/s, Accuracy=44.2]
- 20%|██        | 8/40 [01:05<04:23,  8.23s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.3][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=45.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=45.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=45.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=45.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=45.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=45.9][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.67it/s, Accuracy=46.1][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.76it/s, Accuracy=46.1][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.76it/s, Accuracy=45.9][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.76it/s, Accuracy=45.9][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.18it/s, Accuracy=45.9]
- 22%|██▎       | 9/40 [01:14<04:14,  8.20s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=46.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=46.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.10it/s, Accuracy=45.8][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.10it/s, Accuracy=45.7][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.10it/s, Accuracy=45.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.76it/s, Accuracy=45.7]
- 25%|██▌       | 10/40 [01:22<04:04,  8.16s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=46]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.47it/s, Accuracy=45.7][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.47it/s, Accuracy=45.8][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.63it/s, Accuracy=45.8][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.63it/s, Accuracy=45.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.63it/s, Accuracy=45.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.04it/s, Accuracy=45.7]
- 28%|██▊       | 11/40 [01:30<03:56,  8.16s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.66it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.66it/s, Accuracy=47.3][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.76it/s, Accuracy=47.3][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.76it/s, Accuracy=47.2][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.76it/s, Accuracy=47.2][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.14it/s, Accuracy=47.2]
- 30%|███       | 12/40 [01:38<03:48,  8.18s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=45.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=45.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=45.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=45.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=45.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.93it/s, Accuracy=45.8][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.93it/s, Accuracy=45.9][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.93it/s, Accuracy=45.8][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.00it/s, Accuracy=45.8][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.00it/s, Accuracy=45.8][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.42it/s, Accuracy=45.8]
- 32%|███▎      | 13/40 [01:46<03:41,  8.19s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.29it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.29it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.29it/s, Accuracy=47.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.37it/s, Accuracy=47.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.37it/s, Accuracy=47.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.37it/s, Accuracy=47.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 18.77it/s, Accuracy=47.5]
- 35%|███▌      | 14/40 [01:55<03:34,  8.24s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.63it/s, Accuracy=46.3][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.63it/s, Accuracy=46.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.66it/s, Accuracy=46.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.66it/s, Accuracy=46.4][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.66it/s, Accuracy=46.4][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.08it/s, Accuracy=46.4]
- 38%|███▊      | 15/40 [02:03<03:27,  8.29s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.92it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.92it/s, Accuracy=47.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.93it/s, Accuracy=47.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.93it/s, Accuracy=47.3][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.93it/s, Accuracy=47.3][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.36it/s, Accuracy=47.3]
- 40%|████      | 16/40 [02:11<03:19,  8.30s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.07it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.07it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.07it/s, Accuracy=47.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.36it/s, Accuracy=47.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.36it/s, Accuracy=47.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.36it/s, Accuracy=47.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 18.76it/s, Accuracy=47.5]
- 42%|████▎     | 17/40 [02:19<03:09,  8.26s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=47.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=46.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.04it/s, Accuracy=47]  [A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.04it/s, Accuracy=46.9][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.04it/s, Accuracy=46.9][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.61it/s, Accuracy=46.9]
- 45%|████▌     | 18/40 [02:28<03:01,  8.23s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.60it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.60it/s, Accuracy=46.8][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.61it/s, Accuracy=46.8][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.61it/s, Accuracy=46.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.61it/s, Accuracy=46.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.04it/s, Accuracy=46.7]
- 48%|████▊     | 19/40 [02:36<02:52,  8.23s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.42it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.42it/s, Accuracy=47.2][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.98it/s, Accuracy=47.2]
- 50%|█████     | 20/40 [02:44<02:46,  8.33s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.8][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=47][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.72it/s, Accuracy=46.7][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.72it/s, Accuracy=46.9][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.72it/s, Accuracy=46.8][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.01it/s, Accuracy=46.8][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.01it/s, Accuracy=46.8][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.40it/s, Accuracy=46.8]
- 52%|█████▎    | 21/40 [02:53<02:38,  8.32s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=43.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.74it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.74it/s, Accuracy=47.8][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.82it/s, Accuracy=47.8][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.82it/s, Accuracy=47.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.82it/s, Accuracy=47.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.21it/s, Accuracy=47.7]
- 55%|█████▌    | 22/40 [03:01<02:28,  8.27s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=42.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=47]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.40it/s, Accuracy=46.7][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.40it/s, Accuracy=46.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.96it/s, Accuracy=46.7]
- 57%|█████▊    | 23/40 [03:09<02:20,  8.27s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=48][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=48][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.03it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.03it/s, Accuracy=47.6][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.03it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.03it/s, Accuracy=47.5][A
-Linear Probing: 100%|##########| 40/40 [00:02<00:00, 19.49it/s, Accuracy=47.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.42it/s, Accuracy=47.5]
- 60%|██████    | 24/40 [03:17<02:11,  8.21s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=48][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.13it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.13it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.13it/s, Accuracy=47.7][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.13it/s, Accuracy=47.7][A
-Linear Probing: 100%|##########| 40/40 [00:02<00:00, 19.46it/s, Accuracy=47.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.41it/s, Accuracy=47.7]
- 62%|██████▎   | 25/40 [03:25<02:03,  8.24s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.37it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.37it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.37it/s, Accuracy=48.2][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.92it/s, Accuracy=48.2]
- 65%|██████▌   | 26/40 [03:34<01:54,  8.18s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.2][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.2][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.4][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.6][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.5][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.5][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.7][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.6][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.4][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.3][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.3][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.3][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.2][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.1][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48.1][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=48]  [A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=47.8][A
-Linear Probing:  45%|####5     | 18/40 [00:01<00:01, 17.22it/s, Accuracy=47.8][A
-Linear Probing:  45%|####5     | 18/40 [00:02<00:01, 17.22it/s, Accuracy=47.7][A
-Linear Probing:  45%|####5     | 18/40 [00:02<00:01, 17.22it/s, Accuracy=47.9][A
-Linear Probing:  90%|######### | 36/40 [00:02<00:00, 17.49it/s, Accuracy=47.9][A
-Linear Probing:  90%|######### | 36/40 [00:02<00:00, 17.49it/s, Accuracy=48]  [A
-Linear Probing:  90%|######### | 36/40 [00:02<00:00, 17.49it/s, Accuracy=48][A
-Linear Probing:  90%|######### | 36/40 [00:02<00:00, 17.49it/s, Accuracy=48][A
-Linear Probing:  90%|######### | 36/40 [00:02<00:00, 17.49it/s, Accuracy=48][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 17.89it/s, Accuracy=48]
- 68%|██████▊   | 27/40 [03:42<01:47,  8.27s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=49.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=49.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=49]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=49.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=49.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.57it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.57it/s, Accuracy=48.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.68it/s, Accuracy=48.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.68it/s, Accuracy=48.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.68it/s, Accuracy=48.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.10it/s, Accuracy=48.5]
- 70%|███████   | 28/40 [03:51<01:40,  8.35s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.98it/s, Accuracy=48.2][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.98it/s, Accuracy=48]  [A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.22it/s, Accuracy=48][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.22it/s, Accuracy=48][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.62it/s, Accuracy=48]
- 72%|███████▎  | 29/40 [03:59<01:31,  8.31s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.59it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.59it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.59it/s, Accuracy=47.8][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 18.97it/s, Accuracy=47.8][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 18.97it/s, Accuracy=47.8][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.35it/s, Accuracy=47.8]
- 75%|███████▌  | 30/40 [04:07<01:22,  8.25s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=48][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.85it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.85it/s, Accuracy=47.7][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.26it/s, Accuracy=47.7][A
-Linear Probing:  98%|#########7| 39/40 [00:02<00:00, 19.26it/s, Accuracy=47.7][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.64it/s, Accuracy=47.7]
- 78%|███████▊  | 31/40 [04:15<01:13,  8.20s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=49]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.29it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.29it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.29it/s, Accuracy=48][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.85it/s, Accuracy=48]
- 80%|████████  | 32/40 [04:23<01:05,  8.20s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.27it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.27it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.27it/s, Accuracy=48.2][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.84it/s, Accuracy=48.2]
- 82%|████████▎ | 33/40 [04:31<00:57,  8.24s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=49.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.36it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.36it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.36it/s, Accuracy=48.6][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.94it/s, Accuracy=48.6]
- 85%|████████▌ | 34/40 [04:40<00:49,  8.23s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=49.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=49]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.33it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.33it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.33it/s, Accuracy=48.5][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.85it/s, Accuracy=48.5]
- 88%|████████▊ | 35/40 [04:48<00:41,  8.22s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=44.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.7][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.6][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=47.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=47.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.55it/s, Accuracy=48.1][ALinear Probing: 100%|##########| 40/40 [00:01<00:00, 20.08it/s, Accuracy=48.1]
- 90%|█████████ | 36/40 [04:56<00:32,  8.22s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=50.2][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=50.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=50.2][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=50.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.5][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.4][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.3][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=48.9][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=48.8][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49]  [A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:01<00:01, 19.32it/s, Accuracy=49.1][A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.32it/s, Accuracy=49]  [A
-Linear Probing:  50%|#####     | 20/40 [00:02<00:01, 19.32it/s, Accuracy=49][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.92it/s, Accuracy=49]
- 92%|█████████▎| 37/40 [05:04<00:24,  8.22s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.2][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=48]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.67it/s, Accuracy=47.6][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.67it/s, Accuracy=47.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.68it/s, Accuracy=47.7][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.68it/s, Accuracy=47.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.68it/s, Accuracy=47.6][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.11it/s, Accuracy=47.6]
- 95%|█████████▌| 38/40 [05:13<00:16,  8.27s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=45.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=47.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.3][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.7][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=49.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.9][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.6][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.36it/s, Accuracy=49.5][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.36it/s, Accuracy=49.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.58it/s, Accuracy=49.6][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.58it/s, Accuracy=49.4][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.58it/s, Accuracy=49.4][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 18.98it/s, Accuracy=49.4]
- 98%|█████████▊| 39/40 [05:21<00:08,  8.27s/it]
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=46.5][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.6][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.4][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.7][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.8][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=48.9][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49]  [A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:00<?, ?it/s, Accuracy=49.1][A
-Linear Probing:   0%|          | 0/40 [00:01<?, ?it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=49.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=49.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=49]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=49.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=49]  [A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.8][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.7][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.5][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.2][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.1][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.3][A
-Linear Probing:  48%|####7     | 19/40 [00:01<00:01, 18.73it/s, Accuracy=48.4][A
-Linear Probing:  48%|####7     | 19/40 [00:02<00:01, 18.73it/s, Accuracy=48.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.89it/s, Accuracy=48.5][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.89it/s, Accuracy=48.3][A
-Linear Probing:  95%|#########5| 38/40 [00:02<00:00, 18.89it/s, Accuracy=48.3][ALinear Probing: 100%|##########| 40/40 [00:02<00:00, 19.31it/s, Accuracy=48.3]
-100%|██████████| 40/40 [05:29<00:00,  8.21s/it]100%|██████████| 40/40 [05:29<00:00,  8.24s/it]
