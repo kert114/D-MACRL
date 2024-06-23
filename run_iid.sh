@@ -1,7 +1,8 @@
-#!/bin/bash#!/bin/bash
+#!/bin/bash
 
 # Activate the virtual environment
-source /root/fed_sim/venv/bin/activate
+source venv/bin/activate
+
 
 
 dirichlet_beta=false
